@@ -1,4 +1,3 @@
-import json
 import os
 import re
 import subprocess
@@ -11,7 +10,6 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as ptc
 import numpy as np
 import seaborn as sns
-from venn import venn
 
 from class_utils import is_anonymous_field, is_anonymous_method, is_anonymous_or_lambda
 
@@ -368,50 +366,6 @@ def displayTable4():
                     row += '\\upgreenarrow'
         row += r' \\'
         print(row)
-
-
-
-def drawVenn4(level=LAV):
-    path = f'android-{level}/'
-    jar = Androidjar_ApiConverter(path+'android.jar.txt')
-    xml = Apiversions_ApiConverter(path+'api-versions.xml')
-    txt = Currenttxt_ApiConverter(path+'current.txt.txt')
-    csv = Hiddenapi_ApiConverter(path+'hiddenapi-flags.csv')
-
-    fig, axs = plt.subplots(3, 1, figsize=(4, 9), height_ratios=(9, 8, 8))
-    plt.subplots_adjust(left=0, bottom=0.03, right=1, top=1, wspace=0, hspace=0.15)
-
-    for i, attr in enumerate(('classes', 'fields', 'methods')):
-        label_dict = dict()
-        total = set()
-        for aal in (jar, xml, txt, csv):
-            label = aal.__getattribute__(attr)
-            label_dict[aal.api_file] = set(label)
-            total.update(label)
-
-        ax = axs[i]
-        # ax.add_patch(ptc.Rectangle((0,0), 100, 100, color="green"))
-        if i == 0:
-            venn(label_dict, legend_loc='upper center', fontsize=11, ax=ax)
-            ax.set_ylim(.1, .9)
-        else:
-            venn(label_dict, legend_loc=None, fontsize=11, ax=ax)
-            ax.set_ylim(.1, .8)
-
-        ax.set_xlim(0.03, 0.96)
-        fmt = '(%s) %s (total=%d)'
-        idx = chr(97 + i)
-        api = re.sub(r'e?s$', '', attr)
-        num = len(total)
-        xlabel = fmt % (idx, api, num)
-        ax.set_xlabel(xlabel, fontsize=14)
-
-    # fig.tight_layout()
-    fig_name = f'venn4-{level}.pdf'
-    plt.savefig(fig_name)
-    subprocess.run(['pdfcrop', fig_name, fig_name])
-
-
 
 
 
