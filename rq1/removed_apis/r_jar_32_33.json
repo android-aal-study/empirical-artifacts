@@ -1,0 +1,37 @@
+{
+ "class": {
+  "none": [],
+  "removed": [],
+  "annotate_remove": [],
+  "deprecated": [],
+  "hidden": [],
+  "other": []
+ },
+ "field": {
+  "none": [],
+  "removed": [],
+  "annotate_remove": [],
+  "deprecated": [],
+  "hidden": [],
+  "other": []
+ },
+ "method": {
+  "none": [
+   "Landroid/accessibilityservice/AccessibilityGestureEvent;-><init>()",
+   "Landroid/net/DnsResolver$DnsException;-><init>()",
+   "Landroid/net/IpPrefix;-><init>()"
+  ],
+  "removed": [
+   "Landroid/inputmethodservice/AbstractInputMethodService;->isUiContext()"
+  ],
+  "annotate_remove": [
+   "Landroid/webkit/WebChromeClient;->onReachedMaxAppCacheSize(JJLandroid/webkit/WebStorage$QuotaUpdater;)",
+   "Landroid/webkit/WebSettings;->setAppCacheEnabled(Z)",
+   "Landroid/webkit/WebSettings;->setAppCacheMaxSize(J)",
+   "Landroid/webkit/WebSettings;->setAppCachePath(Ljava/lang/String;)"
+  ],
+  "deprecated": [],
+  "hidden": [],
+  "other": []
+ }
+}

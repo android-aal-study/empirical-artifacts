@@ -1,0 +1,75 @@
+{
+ "class": {
+  "none": [
+   "Landroidx/annotation/RecentlyNonNull;",
+   "Landroidx/annotation/RecentlyNullable;"
+  ],
+  "removed": [],
+  "annotate_remove": [],
+  "deprecated": [],
+  "hidden": [],
+  "other": []
+ },
+ "field": {
+  "none": [
+   "Landroid/Manifest$permission;->CAPTURE_SECURE_VIDEO_OUTPUT",
+   "Landroid/Manifest$permission;->CAPTURE_VIDEO_OUTPUT",
+   "Landroid/Manifest$permission;->READ_FRAME_BUFFER",
+   "Landroid/icu/text/DateFormat$BooleanAttribute;->PARSE_PARTIAL_MATCH",
+   "Landroid/icu/text/RelativeDateTimeFormatter$AbsoluteUnit;->QUARTER",
+   "Landroid/icu/text/RelativeDateTimeFormatter$RelativeUnit;->QUARTERS",
+   "Landroid/text/Layout$Alignment;->ALIGN_LEFT",
+   "Landroid/text/Layout$Alignment;->ALIGN_RIGHT",
+   "Landroid/text/TextUtils$TruncateAt;->END_SMALL"
+  ],
+  "removed": [
+   "Landroid/app/ActivityManager$RecentTaskInfo;->baseActivity",
+   "Landroid/app/ActivityManager$RecentTaskInfo;->baseIntent",
+   "Landroid/app/ActivityManager$RecentTaskInfo;->numActivities",
+   "Landroid/app/ActivityManager$RecentTaskInfo;->origActivity",
+   "Landroid/app/ActivityManager$RecentTaskInfo;->taskDescription",
+   "Landroid/app/ActivityManager$RecentTaskInfo;->topActivity",
+   "Landroid/app/ActivityManager$RunningTaskInfo;->baseActivity",
+   "Landroid/app/ActivityManager$RunningTaskInfo;->numActivities",
+   "Landroid/app/ActivityManager$RunningTaskInfo;->topActivity"
+  ],
+  "annotate_remove": [
+   "Landroid/provider/MediaStore$Audio$AudioColumns;->DURATION",
+   "Landroid/provider/MediaStore$Images$ImageColumns;->BUCKET_DISPLAY_NAME",
+   "Landroid/provider/MediaStore$Images$ImageColumns;->BUCKET_ID",
+   "Landroid/provider/MediaStore$Images$ImageColumns;->DATE_TAKEN",
+   "Landroid/provider/MediaStore$Images$ImageColumns;->ORIENTATION",
+   "Landroid/provider/MediaStore$Video$VideoColumns;->BUCKET_DISPLAY_NAME",
+   "Landroid/provider/MediaStore$Video$VideoColumns;->BUCKET_ID",
+   "Landroid/provider/MediaStore$Video$VideoColumns;->DATE_TAKEN",
+   "Landroid/provider/MediaStore$Video$VideoColumns;->DURATION"
+  ],
+  "deprecated": [],
+  "hidden": [],
+  "other": []
+ },
+ "method": {
+  "none": [
+   "Landroid/companion/AssociationRequest$Builder;->checkNotUsed()",
+   "Landroid/companion/AssociationRequest$Builder;->markUsed()",
+   "Landroid/companion/BluetoothDeviceFilter$Builder;->checkNotUsed()",
+   "Landroid/companion/BluetoothDeviceFilter$Builder;->markUsed()",
+   "Landroid/companion/BluetoothLeDeviceFilter$Builder;->checkNotUsed()",
+   "Landroid/companion/BluetoothLeDeviceFilter$Builder;->markUsed()",
+   "Landroid/companion/WifiDeviceFilter$Builder;->checkNotUsed()",
+   "Landroid/companion/WifiDeviceFilter$Builder;->markUsed()",
+   "Landroid/icu/text/MeasureFormat;->parseObject(Ljava/lang/String;Ljava/text/ParsePosition;)"
+  ],
+  "removed": [],
+  "annotate_remove": [
+   "Landroid/graphics/Picture;->createFromStream(Ljava/io/InputStream;)",
+   "Landroid/graphics/Picture;->writeToStream(Ljava/io/OutputStream;)",
+   "Landroid/location/LocationManager;->addNmeaListener(Landroid/location/GpsStatus$NmeaListener;)",
+   "Landroid/location/LocationManager;->removeNmeaListener(Landroid/location/GpsStatus$NmeaListener;)",
+   "Landroid/telephony/TelephonyManager;->getNeighboringCellInfo()"
+  ],
+  "deprecated": [],
+  "hidden": [],
+  "other": []
+ }
+}

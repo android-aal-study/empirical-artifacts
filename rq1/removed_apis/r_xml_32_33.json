@@ -1,0 +1,31 @@
+{
+ "class": {
+  "none": [],
+  "removed": [],
+  "annotate_remove": [],
+  "deprecated": [],
+  "hidden": [],
+  "other": []
+ },
+ "field": {
+  "none": [],
+  "removed": [],
+  "annotate_remove": [],
+  "deprecated": [],
+  "hidden": [],
+  "other": []
+ },
+ "method": {
+  "none": [],
+  "removed": [],
+  "annotate_remove": [
+   "Landroid/webkit/WebChromeClient;->onReachedMaxAppCacheSize(JJLandroid/webkit/WebStorage$QuotaUpdater;)",
+   "Landroid/webkit/WebSettings;->setAppCacheEnabled(Z)",
+   "Landroid/webkit/WebSettings;->setAppCacheMaxSize(J)",
+   "Landroid/webkit/WebSettings;->setAppCachePath(Ljava/lang/String;)"
+  ],
+  "deprecated": [],
+  "hidden": [],
+  "other": []
+ }
+}

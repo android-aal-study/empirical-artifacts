@@ -1,0 +1,28 @@
+{
+ "class": {
+  "none": [],
+  "removed": [],
+  "annotate_remove": [],
+  "deprecated": [],
+  "hidden": [],
+  "other": []
+ },
+ "field": {
+  "none": [],
+  "removed": [],
+  "annotate_remove": [],
+  "deprecated": [],
+  "hidden": [],
+  "other": []
+ },
+ "method": {
+  "none": [
+   "Landroid/widget/TextView;->onViewTranslationResponse(Landroid/view/translation/ViewTranslationResponse;)"
+  ],
+  "removed": [],
+  "annotate_remove": [],
+  "deprecated": [],
+  "hidden": [],
+  "other": []
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "class": {
+  "none": [],
+  "removed": [],
+  "annotate_remove": [],
+  "deprecated": [],
+  "hidden": [],
+  "other": []
+ },
+ "field": {
+  "none": [
+   "Landroid/icu/util/JapaneseCalendar;->CURRENT_ERA"
+  ],
+  "removed": [
+   "Landroid/provider/MediaStore$Audio$AudioColumns;->ALBUM",
+   "Landroid/provider/MediaStore$Audio$AudioColumns;->ARTIST",
+   "Landroid/provider/MediaStore$Audio$AudioColumns;->COMPOSER",
+   "Landroid/provider/MediaStore$Files$FileColumns;->TITLE",
+   "Landroid/provider/MediaStore$Video$VideoColumns;->ALBUM",
+   "Landroid/provider/MediaStore$Video$VideoColumns;->ARTIST",
+   "Landroid/provider/MediaStore$Video$VideoColumns;->RESOLUTION"
+  ],
+  "annotate_remove": [],
+  "deprecated": [],
+  "hidden": [],
+  "other": []
+ },
+ "method": {
+  "none": [],
+  "removed": [],
+  "annotate_remove": [],
+  "deprecated": [],
+  "hidden": [],
+  "other": []
+ }
+}
