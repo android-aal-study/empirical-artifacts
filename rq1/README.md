@@ -82,6 +82,63 @@ write to removed_classes_31.txt file
 
 ## About Finding 2
 
+The source code related to Finding 2 are in the `analyze_removed_api.py` script. By running the `dumpRemovedApis()` function with specific ranges (should in consecutive versions), we can obtain all removed APIs. The folder already provides the following files of removed APIs:
 
++ `r_csv_28_29.txt`: removed classes, fields, methods in CSV, removed in API-level 29
++ `r_jar_28_29.txt`: removed classes, fields, methods in JAR, removed in API-level 29
++ `r_csv_29_30.txt`: removed classes, fields, methods in CSV, removed in API-level 30
++ and so on ...
 
+With the `.txt` files, we can then check whether the corresponding APIs were actually removed. This is done by the `db_search()` function. We dump the AOSP database and extract API from the framework source code with [JavaParser](https://javaparser.org/). The database is not public, thus you may not run this function. However, we provide the searching results in the `.json` files.
 
+Our API database looks like:
+
+![db](removed_apis/db.png)
+
+Taking the `removed_apis/r_txt_32_33.json` file as an example, in which the data be like:
+
+```json
+{
+ "class": {
+  "none": [],
+  "removed": [
+   "Landroid/app/usage/NetworkStats;",
+   // totally 70 strings
+  ],
+  "annotate_remove": [],
+  "deprecated": [],
+  "hidden": [],
+  "other": []
+ },
+ "field": {
+  "none": [],
+  "removed": [
+   "Landroid/app/usage/NetworkStats$Bucket;->DEFAULT_NETWORK_ALL",
+   // totally 618 strings
+  ],
+  "annotate_remove": [],
+  "deprecated": [],
+  "hidden": [],
+  "other": []
+ },
+ "method": {
+  "none": [
+   "Landroid/app/usage/NetworkStatsManager$UsageCallback;-><init>()",
+   // totally 18 strings
+  ],
+  "removed": [
+   "Landroid/app/usage/NetworkStats;->close()",
+   // totally 547 strings
+  ],
+  "annotate_remove": [
+   "Landroid/webkit/WebChromeClient;->onReachedMaxAppCacheSize(JJLandroid/webkit/WebStorage$QuotaUpdater;)",
+   // totally 4 strings
+  ],
+  "deprecated": [],
+  "hidden": [],
+  "other": []
+ }
+}
+```
+
+This shows the removed APIs in terms of classes, fields, and methods. In the JSON, there are 18 methods under `"none"`, which means either versions did not contain the API; 547 methods are `"removed"`, that are really removed; 4 are `"annotate_remove"`, which means they were only with a `@Removed` annotation.
