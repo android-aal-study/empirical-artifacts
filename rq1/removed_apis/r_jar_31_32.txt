@@ -1,0 +1,7 @@
+classes:
+----------
+fields:
+----------
+methods:
+Landroid/widget/TextView;->onViewTranslationResponse(Landroid/view/translation/ViewTranslationResponse;)
+----------

@@ -1,0 +1,14 @@
+classes:
+----------
+fields:
+----------
+methods:
+Landroid/accessibilityservice/AccessibilityGestureEvent;-><init>()
+Landroid/inputmethodservice/AbstractInputMethodService;->isUiContext()
+Landroid/net/DnsResolver$DnsException;-><init>()
+Landroid/net/IpPrefix;-><init>()
+Landroid/webkit/WebChromeClient;->onReachedMaxAppCacheSize(JJLandroid/webkit/WebStorage$QuotaUpdater;)
+Landroid/webkit/WebSettings;->setAppCacheEnabled(Z)
+Landroid/webkit/WebSettings;->setAppCacheMaxSize(J)
+Landroid/webkit/WebSettings;->setAppCachePath(Ljava/lang/String;)
+----------
