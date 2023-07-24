@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlaceholderFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="200dp">
+
+        <ir.androidexception.datatable.DataTable
+            android:id="@+id/data_table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            app:corner_radius="8dp"
+            app:direction="ltr"
+            app:header_background_color="#fff"
+            app:header_gravity="center"
+            app:header_horizontal_padding="0dp"
+            app:header_text_color="#000"
+            app:header_text_size="6sp"
+            app:header_vertical_padding="4dp"
+            app:persian_number="false"
+            app:row_background_color="#fff"
+            app:row_gravity="center"
+            app:row_text_color="#000"
+            app:row_text_size="4sp"
+            app:row_vertical_padding="2dp"
+            app:shadow="4dp">
+
+        </ir.androidexception.datatable.DataTable>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:text="A cell means: #reflected-api/#total-api" />
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/snackbar_pos"
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+
+        <Button
+            android:id="@+id/button_reflect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:text="@string/reflect" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

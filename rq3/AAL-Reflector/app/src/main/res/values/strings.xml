@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AAL Reflector</string>
+    <string name="tab_text_jar">JAR</string>
+    <string name="tab_text_xml">XML</string>
+    <string name="tab_text_txt">TXT</string>
+    <string name="tab_text_csv">CSV</string>
+    <string name="tab_text_all">ALL</string>
+    <string name="default_section_level">default_section_level</string>
+    <string name="data_table">data_table</string>
+    <string name="reflect">REFLECT</string>
+</resources>
