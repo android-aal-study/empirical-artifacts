@@ -12,3 +12,49 @@ The large number of exclusive methods at API-level 28, as well as no shared fiel
 
 ## Other Findings
 
+The findings in RQ2 are central to `analyze.py` script. If you want to analyze the versions other than 33, you can pass other API-level as command line arguments.
+
+### Obtaining Finding 3
+
+The can be run by executing the `analyze_class_intersection4()` function in the `analyze.py` script. Example run:
+
+```bash
+$ python .\analyze.py 31
+{'android.*': 3089, 'org.apache.http.*': 13, 'javax.microedition.khronos.*': 11} total: 3113
+all shared fields from shared classes
+all shared methods from shared classes
+
+$ python .\analyze.py 32
+{'android.*': 3095, 'org.apache.http.*': 13, 'javax.microedition.khronos.*': 11} total: 3119
+all shared fields from shared classes
+all shared methods from shared classes
+
+$ python .\analyze.py 33
+{'android.*': 3153, 'org.apache.http.*': 13, 'javax.microedition.khronos.*': 11} total: 3177
+all shared fields from shared classes
+all shared methods from shared classes
+```
+
+### Obtaining Finding 4
+
+We run `analyze_csv_exclusive()` to find out the proportion of exclusive CSV fields/methods that belong to the exclusive CSV classes. Example run:
+
+```bash
+$ python .\analyze.py 31
+123121 (0.8030276348314973) fields from exclusive classes
+188453 (0.8854126535176328) methods from non-exclusive classes
+
+$ python .\analyze.py 33
+134062 (0.8068830199581096) fields from exclusive classes
+204467 (0.8885349626494349) methods from non-exclusive classes
+```
+
+To draw sample from exclusive CSV classes, we un-comment the sampling block in the `analyze_csv_exclusive()` function. By running the function, we obtained the 379 sample classes in the `sample-379.xlsx` file. Then we manually tagged the sample, and obtained the `sample-379-labels.xlsx` file. After our authors discussion, we automated the final categorization process, which is the `analyze_csv_sampling()` function. The final output is:
+
+```
+{'hide': 74, 'remove': 2, 'access': 17, 'internal': 58, 'aidl': 90, 'proto': 16, 'hpp': 8, 'sysprop': 1, 'repackaged-jdk': 32, 'repackaged-other': 81}
+```
+
+### Obtaining Finding 5
+
+
