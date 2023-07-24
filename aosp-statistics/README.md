@@ -1,13 +1,13 @@
 # AOSP Statistics
 
-This folder consists data that mentioned in the Research Scope section. It contains two files of `cloc` results, and two files of `ls` results. Both run on the directories of AOSP repo tree. To be specific, we run the following commands on the AOSP root `<ROOT>`:
+This folder consists data that mentioned in the Research Scope section. It contains two files of `cloc` results, and two files of `ls` results. Both run on the directories of AOSP repo tree. To be specific, we run the following commands on the AOSP root `<ROOT>` to obtain the corresponding files:
 
 + To obtain `cloc-aosp.txt`, we run the command: `cloc <ROOT>`
 + To obtain `cloc-framework.txt`, we run the command: `cloc <ROOT>/frameworks/base`
 + To obtain `ls-kt-aosp.txt`, we run the command: `find <ROOT> -type f -name "*.kt"`
 + To obtain `ls-kt-framework.txt`, we run the command: `find <ROOT>/frameworks/base -type f -name "*.kt"`
 
-It helps us count AOSP source files or `.kt` files, which helps us confirming research scope.
+It counts AOSP source files or `.kt` files, which helps us confirming research scope.
 
 Example run of counting `.kt` file usages in the framework:
 
