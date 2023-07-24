@@ -1,0 +1,16 @@
+android.net.DnsPacket
+android.net.DnsPacket$DnsHeader
+android.net.DnsPacket$DnsRecord
+android.net.shared.Inet4AddressUtils
+android.net.shared.InetAddressUtils
+com.android.internal.app.PlatLogoActivity$BackslashDrawable
+com.android.internal.app.PlatLogoActivity$OneDrawable
+com.android.internal.app.PlatLogoActivity$ZeroDrawable
+com.android.net.module.util.IpRange
+com.android.net.module.util.LinkPropertiesUtils
+com.android.net.module.util.LinkPropertiesUtils$CompareOrUpdateResult
+com.android.net.module.util.LinkPropertiesUtils$CompareResult
+com.android.net.module.util.MacAddressUtils
+com.android.net.module.util.NetUtils
+com.android.net.module.util.nsd.DnsSdTxtRecord
+com.android.wifi.x.android.net.shared.Inet4AddressUtils

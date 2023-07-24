@@ -1,0 +1,17 @@
+android.bluetooth.IBluetoothVolumeControl$Stub->TRANSACTION_setVolumeGroup
+android.media.MediaTranscodingManager->mIsLowRamDevice
+android.telecom.VideoCallImpl->mDeathRecipient
+com.android.internal.app.ChooserFlags->USE_PREDICTION_MANAGER_FOR_DIRECT_TARGETS
+com.android.internal.app.ChooserFlags->USE_SERVICE_TARGETS_FOR_DIRECT_TARGETS
+com.android.internal.os.KernelWakelockReader->mKernelWakelockBuffer
+com.android.server.biometrics.face.FaceActionStatsProto->ACCEPT
+com.android.server.biometrics.face.FaceActionStatsProto->ACQUIRE
+com.android.server.biometrics.face.FaceActionStatsProto->LOCKOUT
+com.android.server.biometrics.face.FaceActionStatsProto->LOCKOUT_PERMANENT
+com.android.server.biometrics.face.FaceActionStatsProto->REJECT
+com.android.server.biometrics.face.FaceServiceDumpProto->USERS
+com.android.server.biometrics.face.FaceUserStatsProto->CRYPTO
+com.android.server.biometrics.face.FaceUserStatsProto->NORMAL
+com.android.server.biometrics.face.FaceUserStatsProto->NUM_FACES
+com.android.server.biometrics.face.FaceUserStatsProto->USER_ID
+java.util.concurrent.CopyOnWriteArrayList->elements

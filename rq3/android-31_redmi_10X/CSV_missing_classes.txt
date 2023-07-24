@@ -1,0 +1,4 @@
+com.android.internal.app.ChooserFlags
+com.android.server.biometrics.face.FaceActionStatsProto
+com.android.server.biometrics.face.FaceServiceDumpProto
+com.android.server.biometrics.face.FaceUserStatsProto
