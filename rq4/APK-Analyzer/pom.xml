@@ -28,7 +28,7 @@
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
-                    <outputDirectory>../runner</outputDirectory>
+                    <outputDirectory>../test</outputDirectory>
                 </configuration>
                 <executions>
                     <execution>

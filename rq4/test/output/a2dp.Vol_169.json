@@ -1,0 +1,1876 @@
+{
+	"compassMethods":[
+		{
+			"method":"<a2dp.Vol.service$11: void <init>(a2dp.Vol.service,long,long,int)>",
+			"call_APIs":["<android.os.CountDownTimer: void <init>(long,long)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData: void setupActionBar()>",
+			"call_APIs":["<android.app.Activity: android.app.ActionBar getActionBar()>","<android.app.ActionBar: void setDisplayHomeAsUpEnabled(boolean)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main: int permission_scan()>",
+			"call_APIs":["<android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$5: void onReceive(android.content.Context,android.content.Intent)>",
+			"call_APIs":["<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.content.Intent: int getIntExtra(java.lang.String,int)>","<android.util.Log: int e(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service: void onDestroy()>",
+			"call_APIs":["<android.content.ContextWrapper: boolean stopService(android.content.Intent)>","<android.content.Intent: void <init>()>","<android.content.Intent: android.content.Intent setAction(java.lang.String)>","<android.content.ContextWrapper: void sendBroadcast(android.content.Intent)>","<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,int,int)>","<android.app.Service: void stopForeground(boolean)>","<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.database.sqlite.SQLiteClosable: void close()>","<android.app.NotificationManager: void cancelAll()>","<android.speech.tts.TextToSpeech: void shutdown()>","<android.widget.Toast: void show()>","<android.content.ContextWrapper: void unregisterReceiver(android.content.BroadcastReceiver)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$21: void <init>(a2dp.Vol.service,long,long,java.lang.String,android.os.Bundle)>",
+			"call_APIs":["<android.os.CountDownTimer: void <init>(long,long)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.Connector: void done()>",
+			"call_APIs":["<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.app.Service: void stopSelf()>","<android.content.Context: void unregisterReceiver(android.content.BroadcastReceiver)>","<android.app.NotificationManager: void cancelAll()>","<android.os.Build$VERSION: int SDK_INT>","<android.app.NotificationManager: void cancel(int)>","<android.app.Service: void stopForeground(boolean)>","<android.app.Service: void stopForeground(int)>"],
+			"call_external_APIs":["<android.support.v4.app.NotificationManagerCompat: void cancelAll()>"],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.Widget: void <init>()>",
+			"call_APIs":["<android.appwidget.AppWidgetProvider: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData$ExportDataAsXmlTask: void onPostExecute(java.lang.String)>",
+			"call_APIs":["<android.app.Dialog: boolean isShowing()>","<android.widget.TextView: void setText(java.lang.CharSequence)>","<android.app.Dialog: void dismiss()>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>","<android.widget.Toast: void show()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData$SelectDataTask: void onPostExecute(java.lang.String)>",
+			"call_APIs":["<android.app.Dialog: boolean isShowing()>","<android.widget.TextView: void setText(java.lang.CharSequence)>","<android.app.Dialog: void dismiss()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<org.apache.http.conn.ssl.StrictHostnameVerifier: void <init>()>",
+			"call_APIs":["<org.apache.http.conn.ssl.AbstractVerifier: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.EditDevice$11: void onClick(android.content.DialogInterface,int)>",
+			"call_APIs":["<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>","<android.content.Intent: void <init>(java.lang.String)>","<android.content.ContextWrapper: android.content.Context getBaseContext()>","<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>","<android.app.Activity: void startActivityForResult(android.content.Intent,int)>","<android.content.Intent: android.content.Intent putExtra(java.lang.String,android.os.Parcelable)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$23: void onError(java.lang.String)>",
+			"call_APIs":["<android.util.Log: int d(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$6: void <init>(a2dp.Vol.service)>",
+			"call_APIs":["<android.content.BroadcastReceiver: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main$13: void <init>(a2dp.Vol.main)>",
+			"call_APIs":["<android.content.BroadcastReceiver: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData$5: void onClick(android.view.View)>",
+			"call_APIs":["<android.os.AsyncTask: android.os.AsyncTask execute(java.lang.Object[])>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,int,int)>","<android.widget.Toast: void show()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.btDevice: void setBluetoothDevice(android.bluetooth.BluetoothDevice,java.lang.String,int)>",
+			"call_APIs":["<android.bluetooth.BluetoothDevice: java.lang.String getName()>","<android.bluetooth.BluetoothDevice: java.lang.String getAddress()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.StoreLoc: void finalize()>",
+			"call_APIs":["<android.database.sqlite.SQLiteClosable: void close()>","<android.location.LocationManager: void removeUpdates(android.location.LocationListener)>","<android.app.Service: void stopForeground(boolean)>"],
+			"call_external_APIs":["<android.support.v4.app.NotificationManagerCompat: void cancelAll()>","<android.support.v4.content.ContextCompat: int checkSelfPermission(android.content.Context,java.lang.String)>"],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service: void <init>()>",
+			"call_APIs":["<android.app.Service: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$6: void onReceive(android.content.Context,android.content.Intent)>",
+			"call_APIs":["<android.content.Intent: java.lang.String getAction()>","<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.os.BaseBundle: java.lang.Object get(java.lang.String)>","<android.content.Intent: android.os.Bundle getExtras()>","<android.bluetooth.BluetoothDevice: java.lang.String getAddress()>","<android.util.Log: int e(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main: int loadFromDB()>",
+			"call_APIs":["<android.database.sqlite.SQLiteDatabase: boolean isOpen()>","<android.database.sqlite.SQLiteClosable: void close()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.NotificationCatcher: void onNotificationPosted(android.service.notification.StatusBarNotification)>",
+			"call_APIs":["<android.os.AsyncTask: android.os.AsyncTask execute(java.lang.Object[])>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$7: void <init>(a2dp.Vol.service)>",
+			"call_APIs":["<android.content.BroadcastReceiver: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.AppChooser: void initAttachViewsToVars()>",
+			"call_APIs":["<android.app.Activity: android.view.View findViewById(int)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service: void clearTts()>",
+			"call_APIs":["<android.media.AudioManager: void stopBluetoothSco()>","<android.media.AudioManager: void setSpeakerphoneOn(boolean)>","<android.media.AudioManager: boolean isBluetoothScoAvailableOffCall()>","<android.media.AudioManager: void setBluetoothScoOn(boolean)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main: void onRequestPermissionsResult(int,java.lang.String[],int[])>",
+			"call_APIs":["<android.content.SharedPreferences: android.content.SharedPreferences$Editor edit()>","<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>","<android.content.SharedPreferences$Editor: void apply()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.Connector$1: void <init>(a2dp.Vol.Connector)>",
+			"call_APIs":["<android.content.BroadcastReceiver: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$23: void <init>(a2dp.Vol.service)>",
+			"call_APIs":["<android.speech.tts.UtteranceProgressListener: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<org.xmlpull.v1.XmlPullParserException: void <init>(java.lang.String,org.xmlpull.v1.XmlPullParser,java.lang.Throwable)>",
+			"call_APIs":["<org.xmlpull.v1.XmlPullParserException: int row>","<org.xmlpull.v1.XmlPullParserException: int column>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<dalvik.system.PathClassLoader: void <init>(java.lang.String,java.lang.ClassLoader)>",
+			"call_APIs":["<dalvik.system.BaseDexClassLoader: void <init>(java.lang.String,java.io.File,java.lang.String,java.lang.ClassLoader)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$7: void onReceive(android.content.Context,android.content.Intent)>",
+			"call_APIs":["<android.util.Log: int i(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData$ImportDatabaseFileTask: void onPostExecute(java.lang.Boolean)>",
+			"call_APIs":["<android.widget.TextView: void setText(java.lang.CharSequence)>","<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>","<android.app.Dialog: void dismiss()>","<android.content.Intent: void <init>()>","<android.content.Intent: android.content.Intent setAction(java.lang.String)>","<android.content.ContextWrapper: void sendBroadcast(android.content.Intent)>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,int,int)>","<android.app.Dialog: boolean isShowing()>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>","<android.widget.Toast: void show()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service: void getOldvol()>",
+			"call_APIs":["<android.content.SharedPreferences: android.content.SharedPreferences$Editor edit()>","<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>","<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.content.SharedPreferences$Editor: void apply()>","<android.media.AudioManager: int getStreamVolume(int)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$4: void onReceive(android.content.Context,android.content.Intent)>",
+			"call_APIs":["<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.bluetooth.BluetoothAdapter: android.bluetooth.BluetoothAdapter getDefaultAdapter()>","<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>","<android.content.Intent: void <init>()>","<android.content.Intent: android.content.Intent setAction(java.lang.String)>","<android.bluetooth.BluetoothAdapter: int getState()>","<android.content.ContextWrapper: void sendBroadcast(android.content.Intent)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData$ExportDatabaseFileTask: java.lang.Boolean doInBackground(java.lang.String[])>",
+			"call_APIs":["<android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)>","<android.database.sqlite.SQLiteDatabase: java.lang.String getPath()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData: void <init>()>",
+			"call_APIs":["<android.app.Activity: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.EditDevice: void Save()>",
+			"call_APIs":["<android.widget.TextView: void setText(java.lang.CharSequence)>","<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>","<android.widget.CompoundButton: boolean isChecked()>","<android.content.Intent: void <init>(java.lang.String)>","<android.content.Intent: void <init>()>","<android.content.Intent: android.content.Intent setAction(java.lang.String)>","<android.content.ContextWrapper: android.content.Context getBaseContext()>","<android.content.ContextWrapper: void sendBroadcast(android.content.Intent)>","<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>","<android.content.SharedPreferences$Editor: void apply()>","<android.content.SharedPreferences: android.content.SharedPreferences$Editor edit()>","<android.widget.RadioGroup: int getCheckedRadioButtonId()>","<android.widget.ProgressBar: int getProgress()>","<android.app.Activity: void startActivity(android.content.Intent)>","<android.widget.EditText: android.text.Editable getText()>","<android.widget.TextView: int length()>"],
+			"call_external_APIs":["<android.support.v4.app.NotificationManagerCompat: java.util.Set getEnabledListenerPackages(android.content.Context)>"],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.LocViewer: void onCreate(android.os.Bundle)>",
+			"call_APIs":["<android.app.Activity: android.app.Application getApplication()>","<android.view.View: void setOnClickListener(android.view.View$OnClickListener)>","<android.content.Intent: java.lang.String getStringExtra(java.lang.String)>","<android.net.Uri: android.net.Uri parse(java.lang.String)>","<android.net.Uri: java.lang.String toString()>","<android.app.Activity: android.content.Intent getIntent()>","<android.webkit.WebView: void loadUrl(java.lang.String)>"],
+			"call_external_APIs":["<android.support.v7.app.AppCompatActivity: void setContentView(int)>","<android.support.v7.app.ActionBar: void setDisplayHomeAsUpEnabled(boolean)>","<android.support.v7.app.AppCompatActivity: void setSupportActionBar(android.support.v7.widget.Toolbar)>","<android.support.v7.app.AppCompatActivity: android.view.View findViewById(int)>","<android.support.v7.app.AppCompatActivity: android.support.v7.app.ActionBar getSupportActionBar()>","<android.support.v7.app.AppCompatActivity: void onCreate(android.os.Bundle)>"],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ConnectWidget: void onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])>",
+			"call_APIs":["<android.widget.RemoteViews: void setOnClickPendingIntent(int,android.app.PendingIntent)>","<android.bluetooth.BluetoothAdapter: android.bluetooth.BluetoothAdapter getDefaultAdapter()>","<android.content.Context: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)>","<android.app.PendingIntent: android.app.PendingIntent getService(android.content.Context,int,android.content.Intent,int)>","<android.widget.RemoteViews: void setTextViewText(int,java.lang.CharSequence)>","<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>","<android.appwidget.AppWidgetManager: void updateAppWidget(int,android.widget.RemoteViews)>","<android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)>","<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.content.Intent: android.content.Intent putExtra(java.lang.String,int)>","<android.app.PendingIntent: android.app.PendingIntent getForegroundService(android.content.Context,int,android.content.Intent,int)>","<android.widget.RemoteViews: void <init>(java.lang.String,int)>","<android.os.Build$VERSION: int SDK_INT>","<android.content.Context: java.lang.String getPackageName()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<dalvik.system.PathClassLoader: void <init>(java.lang.String,java.lang.String,java.lang.ClassLoader)>",
+			"call_APIs":["<dalvik.system.BaseDexClassLoader: void <init>(java.lang.String,java.io.File,java.lang.String,java.lang.ClassLoader)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.StoreLoc: void onDestroy()>",
+			"call_APIs":["<android.database.sqlite.SQLiteClosable: void close()>","<android.location.LocationManager: void removeUpdates(android.location.LocationListener)>","<android.app.Service: void stopForeground(boolean)>","<android.app.Service: void onDestroy()>"],
+			"call_external_APIs":["<android.support.v4.content.ContextCompat: int checkSelfPermission(android.content.Context,java.lang.String)>"],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$19: void onTick(long)>",
+			"call_APIs":["<android.util.Log: int e(java.lang.String,java.lang.String)>","<android.media.AudioManager: int getStreamVolume(int)>","<android.media.AudioManager: void setStreamVolume(int,int,int)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.EditDevice$8: void onClick(android.view.View)>",
+			"call_APIs":["<android.app.Dialog: void show()>","<android.database.sqlite.SQLiteDatabase: boolean isOpen()>","<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setItems(java.lang.CharSequence[],android.content.DialogInterface$OnClickListener)>","<android.app.AlertDialog$Builder: void <init>(android.content.Context)>","<android.app.AlertDialog$Builder: android.app.AlertDialog create()>","<android.database.sqlite.SQLiteDatabase: boolean isDbLockedByCurrentThread()>","<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setTitle(java.lang.CharSequence)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$9: void onReceive(android.content.Context,android.content.Intent)>",
+			"call_APIs":["<android.util.Log: int i(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.EditDevice: void vUpdateApp()>",
+			"call_APIs":["<android.widget.TextView: void setText(java.lang.CharSequence)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<org.apache.http.conn.ssl.BrowserCompatHostnameVerifier: void <init>()>",
+			"call_APIs":["<org.apache.http.conn.ssl.AbstractVerifier: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.StoreLoc$1: void <init>(a2dp.Vol.StoreLoc,long,long)>",
+			"call_APIs":["<android.os.CountDownTimer: void <init>(long,long)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ConnectWidgetConfigureActivity: void createList()>",
+			"call_APIs":["<android.bluetooth.BluetoothDevice: java.lang.String getName()>","<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setTitle(int)>","<android.bluetooth.BluetoothAdapter: android.bluetooth.BluetoothAdapter getDefaultAdapter()>","<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setItems(java.lang.CharSequence[],android.content.DialogInterface$OnClickListener)>","<android.bluetooth.BluetoothAdapter: java.util.Set getBondedDevices()>","<android.app.AlertDialog$Builder: android.app.AlertDialog show()>","<android.bluetooth.BluetoothDevice: java.lang.String getAddress()>","<android.app.AlertDialog$Builder: void <init>(android.content.Context)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.DataXmlExporter: void exportTable(java.lang.String)>",
+			"call_APIs":["<android.database.Cursor: java.lang.String getColumnName(int)>","<android.database.Cursor: boolean moveToNext()>","<android.database.Cursor: void close()>","<android.database.Cursor: java.lang.String getString(int)>","<android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>","<android.database.Cursor: boolean moveToFirst()>","<android.database.Cursor: int getColumnCount()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.EditDevice: void onBackPressed()>",
+			"call_APIs":["<android.app.Activity: void finish()>","<android.app.Activity: void onBackPressed()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main$5$2: void onClick(android.content.DialogInterface,int)>",
+			"call_APIs":["<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>","<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>","<android.app.Activity: void startActivityForResult(android.content.Intent,int)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ConnectWidgetConfigureActivity: void saveTitlePref(android.content.Context,int,java.lang.String)>",
+			"call_APIs":["<android.content.SharedPreferences: android.content.SharedPreferences$Editor edit()>","<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>","<android.content.Context: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)>","<android.content.SharedPreferences$Editor: void apply()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main: void askPermission(int,int,java.lang.String)>",
+			"call_APIs":["<android.app.AlertDialog$Builder: android.app.AlertDialog show()>","<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setPositiveButton(int,android.content.DialogInterface$OnClickListener)>","<android.app.AlertDialog$Builder: void <init>(android.content.Context)>","<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setNegativeButton(int,android.content.DialogInterface$OnClickListener)>","<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setMessage(int)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.EditDevice$6$1: void onClick(android.content.DialogInterface,int)>",
+			"call_APIs":["<android.widget.TextView: void setText(java.lang.CharSequence)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.DeviceDB: a2dp.Vol.btDevice getBTD(java.lang.String)>",
+			"call_APIs":["<android.database.Cursor: boolean isClosed()>","<android.database.Cursor: void close()>","<android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>","<android.database.Cursor: int getInt(int)>","<android.database.Cursor: java.lang.String getString(int)>","<android.database.Cursor: boolean moveToFirst()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main$10: void onClick(android.content.DialogInterface,int)>",
+			"call_APIs":[],
+			"call_external_APIs":["<android.support.v4.app.ActivityCompat: void requestPermissions(android.app.Activity,java.lang.String[],int)>"],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData: void onRestoreInstanceState(android.os.Bundle)>",
+			"call_APIs":["<android.app.Activity: void onRestoreInstanceState(android.os.Bundle)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.EditDevice$10: void onProgressChanged(android.widget.SeekBar,int,boolean)>",
+			"call_APIs":["<android.widget.TextView: void setText(java.lang.CharSequence)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.StoreLoc$1: void onFinish()>",
+			"call_APIs":["<android.os.Build$VERSION: int SDK_INT>"],
+			"call_external_APIs":["<android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setProgress(int,int,boolean)>","<android.support.v4.app.NotificationCompat$Builder: android.app.Notification build()>","<android.support.v4.app.NotificationManagerCompat: void notify(int,android.app.Notification)>"],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$4: void <init>(a2dp.Vol.service)>",
+			"call_APIs":["<android.content.BroadcastReceiver: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData$3: void onClick(android.view.View)>",
+			"call_APIs":["<android.os.AsyncTask: android.os.AsyncTask execute(java.lang.Object[])>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,int,int)>","<android.widget.Toast: void show()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData$ExportDatabaseFileTask: void onPreExecute()>",
+			"call_APIs":["<android.app.ProgressDialog: void setMessage(java.lang.CharSequence)>","<android.app.Dialog: void show()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main: void onPause()>",
+			"call_APIs":["<android.app.Activity: void onPause()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.MyApplication: void onTerminate()>",
+			"call_APIs":["<android.util.Log: int d(java.lang.String,java.lang.String)>","<android.app.Application: void onTerminate()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main: android.content.DialogInterface$OnClickListener setIgnore()>",
+			"call_APIs":["<android.content.SharedPreferences: android.content.SharedPreferences$Editor edit()>","<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>","<android.content.SharedPreferences$Editor: void apply()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.StoreLoc: void onCreate()>",
+			"call_APIs":["<android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)>","<android.app.Service: android.app.Application getApplication()>","<android.content.Context: java.lang.String getString(int)>","<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>","<android.app.Service: void startForeground(int,android.app.Notification)>","<android.os.Build$VERSION: int SDK_INT>"],
+			"call_external_APIs":["<android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setProgress(int,int,boolean)>","<android.support.v4.app.NotificationCompat$Builder: android.app.Notification build()>","<android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setChannelId(java.lang.String)>","<android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setSmallIcon(int)>","<android.support.v4.app.NotificationManagerCompat: void notify(int,android.app.Notification)>","<android.support.v4.app.NotificationCompat$Builder: void <init>(android.content.Context,java.lang.String)>","<android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setContentTitle(java.lang.CharSequence)>","<android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setContentIntent(android.app.PendingIntent)>","<android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setCategory(java.lang.String)>","<android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setContentText(java.lang.CharSequence)>"],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.PackagesChooser$PackageListAdapter: android.view.View getView(int,android.view.View,android.view.ViewGroup)>",
+			"call_APIs":["<android.widget.TextView: void setText(java.lang.CharSequence)>","<android.widget.CompoundButton: void setChecked(boolean)>","<android.view.LayoutInflater: android.view.LayoutInflater from(android.content.Context)>","<android.widget.ArrayAdapter: java.lang.Object getItem(int)>","<android.widget.CompoundButton: void setOnCheckedChangeListener(android.widget.CompoundButton$OnCheckedChangeListener)>","<android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup,boolean)>","<android.view.View: android.view.View findViewById(int)>","<android.widget.ImageView: void setImageDrawable(android.graphics.drawable.Drawable)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main$9: void onTick(long)>",
+			"call_APIs":["<android.widget.TextView: void setText(int)>","<android.util.Log: int e(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main: void onRestart()>",
+			"call_APIs":["<android.app.Activity: void onRestart()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$18: void <init>(a2dp.Vol.service,long,long)>",
+			"call_APIs":["<android.os.CountDownTimer: void <init>(long,long)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$5: void <init>(a2dp.Vol.service)>",
+			"call_APIs":["<android.content.BroadcastReceiver: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.Connector$ConnectBt$1: void onFinish()>",
+			"call_APIs":["<android.content.Intent: void <init>()>","<android.content.Intent: android.content.Intent setAction(java.lang.String)>","<android.content.Context: void sendBroadcast(android.content.Intent)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service: void onCreate()>",
+			"call_APIs":["<android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)>","<android.content.SharedPreferences: int getInt(java.lang.String,int)>","<android.content.Intent: android.content.Intent setAction(java.lang.String)>","<android.content.ContextWrapper: android.content.Context getBaseContext()>","<android.app.Service: android.app.Application getApplication()>","<android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,int,int)>","<android.os.Environment: java.io.File getExternalStorageDirectory()>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>","<android.content.ContextWrapper: android.content.Context getApplicationContext()>","<android.widget.Toast: void show()>","<android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()>","<android.content.Context: java.lang.Object getSystemService(java.lang.String)>","<android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)>","<android.content.Intent: void <init>()>","<android.content.ContextWrapper: java.lang.Object getSystemService(java.lang.String)>","<android.content.ContextWrapper: void sendBroadcast(android.content.Intent)>","<android.content.ContextWrapper: java.io.File getFilesDir()>","<android.util.Log: int e(java.lang.String,java.lang.String)>","<android.os.Build$VERSION: int SDK_INT>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$17: void <init>(a2dp.Vol.service,long,long)>",
+			"call_APIs":["<android.os.CountDownTimer: void <init>(long,long)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.DeviceDB: java.util.List selectAll()>",
+			"call_APIs":["<android.database.Cursor: boolean moveToNext()>","<android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>","<android.database.Cursor: java.lang.String getString(int)>","<android.database.Cursor: boolean moveToFirst()>","<android.database.Cursor: boolean isClosed()>","<android.database.Cursor: void close()>","<android.database.sqlite.SQLiteDatabase: boolean isOpen()>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>","<android.widget.Toast: void show()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main$5: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>",
+			"call_APIs":["<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setNeutralButton(int,android.content.DialogInterface$OnClickListener)>","<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setMessage(java.lang.CharSequence)>","<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setTitle(java.lang.CharSequence)>","<android.app.AlertDialog$Builder: android.app.AlertDialog show()>","<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setPositiveButton(int,android.content.DialogInterface$OnClickListener)>","<android.app.AlertDialog$Builder: void <init>(android.content.Context)>","<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setNegativeButton(int,android.content.DialogInterface$OnClickListener)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service: void DoConnected(a2dp.Vol.btDevice)>",
+			"call_APIs":["<android.content.Intent: android.content.Intent setAction(java.lang.String)>","<android.content.Intent: void <init>(java.lang.String)>","<android.telephony.TelephonyManager: int getCallState()>","<android.net.wifi.WifiManager: boolean isWifiEnabled()>","<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>","<android.os.CountDownTimer: android.os.CountDownTimer start()>","<android.media.AudioManager: boolean isBluetoothScoAvailableOffCall()>","<android.widget.Toast: void show()>","<android.content.ContextWrapper: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>","<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>","<android.content.Intent: void <init>()>","<android.content.ContextWrapper: void sendBroadcast(android.content.Intent)>","<android.speech.tts.TextToSpeech: void <init>(android.content.Context,android.speech.tts.TextToSpeech$OnInitListener)>","<android.media.AudioManager: void setStreamVolume(int,int,int)>","<android.content.IntentFilter: void <init>(java.lang.String)>","<android.util.Log: int e(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":["<android.support.v4.content.ContextCompat: int checkSelfPermission(android.content.Context,java.lang.String)>"],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service: void DoDisconnected(a2dp.Vol.btDevice)>",
+			"call_APIs":["<android.bluetooth.BluetoothAdapter: android.bluetooth.BluetoothAdapter getDefaultAdapter()>","<android.content.ContextWrapper: android.content.ComponentName startService(android.content.Intent)>","<android.content.Intent: void <init>(java.lang.String)>","<android.content.Intent: android.content.Intent setAction(java.lang.String)>","<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>","<android.bluetooth.BluetoothAdapter: boolean disable()>","<android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)>","<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.content.Intent: android.content.Intent setFlags(int)>","<android.bluetooth.BluetoothAdapter: boolean isEnabled()>","<android.os.CountDownTimer: android.os.CountDownTimer start()>","<android.content.ContextWrapper: void unregisterReceiver(android.content.BroadcastReceiver)>","<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>","<android.content.Intent: void <init>()>","<android.content.ContextWrapper: void sendBroadcast(android.content.Intent)>","<android.content.Intent: android.content.Intent addCategory(java.lang.String)>","<android.media.AudioManager: int getStreamVolume(int)>","<android.media.AudioManager: void setStreamVolume(int,int,int)>","<android.content.ContextWrapper: android.content.ComponentName startForegroundService(android.content.Intent)>","<android.content.ContextWrapper: void startActivity(android.content.Intent)>","<android.os.Build$VERSION: int SDK_INT>","<android.util.Log: int e(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":["<android.support.v4.content.ContextCompat: int checkSelfPermission(android.content.Context,java.lang.String)>"],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main: void onDestroy()>",
+			"call_APIs":["<android.database.sqlite.SQLiteClosable: void close()>","<android.app.Activity: void onDestroy()>","<android.content.ContextWrapper: void unregisterReceiver(android.content.BroadcastReceiver)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.StoreLoc: void grabGPS()>",
+			"call_APIs":["<android.location.Location: double getLatitude()>","<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>","<android.content.ContextWrapper: java.io.FileOutputStream openFileOutput(java.lang.String,int)>","<android.location.LocationManager: java.util.List getProviders(boolean)>","<android.location.Location: long getTime()>","<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>","<android.text.format.DateUtils: java.lang.String formatDateTime(android.content.Context,long,int)>","<android.widget.Toast: void show()>","<android.content.ContextWrapper: java.lang.Object getSystemService(java.lang.String)>","<android.location.Location: boolean hasAccuracy()>","<android.location.Location: float getAccuracy()>","<android.location.Location: double getLongitude()>"],
+			"call_external_APIs":["<android.support.v4.content.ContextCompat: int checkSelfPermission(android.content.Context,java.lang.String)>"],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main: java.lang.String getBTClassServ(android.bluetooth.BluetoothDevice)>",
+			"call_APIs":["<android.bluetooth.BluetoothDevice: android.bluetooth.BluetoothClass getBluetoothClass()>","<android.bluetooth.BluetoothClass: boolean hasService(int)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main: boolean onOptionsItemSelected(android.view.MenuItem)>",
+			"call_APIs":["<android.content.ContextWrapper: boolean stopService(android.content.Intent)>","<android.content.Intent: android.content.Intent setAction(java.lang.String)>","<android.net.Uri: android.net.Uri parse(java.lang.String)>","<android.content.ContextWrapper: android.content.Context getBaseContext()>","<android.app.Activity: void finish()>","<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>","<android.content.pm.ApplicationInfo: int uid>","<android.app.Dialog: void show()>","<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setCancelable(boolean)>","<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setPositiveButton(int,android.content.DialogInterface$OnClickListener)>","<android.app.Activity: void startActivity(android.content.Intent)>","<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>","<android.content.Intent: void <init>()>","<android.view.MenuItem: int getItemId()>","<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>","<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setMessage(int)>","<android.content.Intent: android.content.Intent putExtra(java.lang.String,int)>","<android.app.AlertDialog$Builder: void <init>(android.content.Context)>","<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setNegativeButton(int,android.content.DialogInterface$OnClickListener)>","<android.app.AlertDialog$Builder: android.app.AlertDialog create()>","<android.content.ContextWrapper: android.content.pm.ApplicationInfo getApplicationInfo()>","<android.database.sqlite.SQLiteClosable: void close()>","<android.content.ContextWrapper: java.lang.String getPackageName()>","<android.os.Build$VERSION: int SDK_INT>","<android.app.Activity: void startActivityForResult(android.content.Intent,int)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.StoreLoc$1: void onTick(long)>",
+			"call_APIs":["<android.os.Build$VERSION: int SDK_INT>"],
+			"call_external_APIs":["<android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setProgress(int,int,boolean)>","<android.support.v4.app.NotificationCompat$Builder: android.app.Notification build()>","<android.support.v4.app.NotificationManagerCompat: void notify(int,android.app.Notification)>"],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.NotificationCatcher: void onNotificationPosted(android.service.notification.StatusBarNotification,android.service.notification.NotificationListenerService$RankingMap)>",
+			"call_APIs":["<android.service.notification.NotificationListenerService: void onNotificationPosted(android.service.notification.StatusBarNotification,android.service.notification.NotificationListenerService$RankingMap)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.Connector$1: void onReceive(android.content.Context,android.content.Intent)>",
+			"call_APIs":["<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>","<android.bluetooth.IBluetoothA2dp: int getConnectionState(android.bluetooth.BluetoothDevice)>","<android.content.Context: java.lang.String getString(int)>","<android.widget.Toast: void show()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main$4$1: void onClick(android.content.DialogInterface,int)>",
+			"call_APIs":["<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>","<android.net.Uri: android.net.Uri parse(java.lang.String)>","<android.app.Activity: void startActivity(android.content.Intent)>","<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service: int setPVolume(int)>",
+			"call_APIs":["<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.media.AudioManager: int getStreamMaxVolume(int)>","<android.media.AudioManager: void setStreamVolume(int,int,int)>","<android.media.AudioManager: int getStreamVolume(int)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.NotificationCatcher$2: void <init>(a2dp.Vol.NotificationCatcher)>",
+			"call_APIs":["<android.content.BroadcastReceiver: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.PackagesChooser: void setupActionBar()>",
+			"call_APIs":["<android.app.Activity: android.app.ActionBar getActionBar()>","<android.app.ActionBar: void setDisplayHomeAsUpEnabled(boolean)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData$1: void onClick(android.view.View)>",
+			"call_APIs":["<android.bluetooth.BluetoothAdapter: android.bluetooth.BluetoothAdapter getDefaultAdapter()>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>","<android.bluetooth.BluetoothAdapter: android.bluetooth.BluetoothDevice getRemoteDevice(java.lang.String)>","<android.content.Context: java.lang.String getString(int)>","<android.widget.Toast: void show()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$15: void onReceive(android.content.Context,android.content.Intent)>",
+			"call_APIs":["<android.util.Log: int i(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.EditDevice$9: void onProgressChanged(android.widget.SeekBar,int,boolean)>",
+			"call_APIs":["<android.widget.TextView: void setText(java.lang.CharSequence)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.Connector$ConnectBt: void onPostExecute(java.lang.Boolean)>",
+			"call_APIs":["<android.os.AsyncTask: void onPostExecute(java.lang.Object)>","<android.os.CountDownTimer: android.os.CountDownTimer start()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.DeviceDB: void <init>(android.content.Context)>",
+			"call_APIs":["<android.database.sqlite.SQLiteOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>","<android.database.sqlite.SQLiteDatabase: android.database.sqlite.SQLiteStatement compileStatement(java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.AppChooser$7: void run()>",
+			"call_APIs":["<android.app.Dialog: void dismiss()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.DataXmlExporter: void export(java.lang.String,java.lang.String)>",
+			"call_APIs":["<android.database.Cursor: boolean moveToNext()>","<android.database.Cursor: void close()>","<android.database.Cursor: java.lang.String getString(int)>","<android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>","<android.database.Cursor: boolean moveToFirst()>","<android.database.Cursor: int getColumnIndex(java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.AppChooser$AppInfoCache: android.graphics.drawable.Drawable getIcon()>",
+			"call_APIs":["<android.content.pm.PackageManager: android.graphics.drawable.Drawable getApplicationIcon(java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$9: void <init>(a2dp.Vol.service)>",
+			"call_APIs":["<android.content.BroadcastReceiver: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.CustomIntentMaker$1: void onClick(android.view.View)>",
+			"call_APIs":["<android.app.Activity: void setResult(int,android.content.Intent)>","<android.app.Activity: void finish()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.EditDevice$4: void onClick(android.view.View)>",
+			"call_APIs":["<android.app.Activity: void finish()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData$ImportDatabaseFileTask: void onPreExecute()>",
+			"call_APIs":["<android.app.ProgressDialog: void setMessage(java.lang.CharSequence)>","<android.app.Dialog: void show()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$14: void onReceive(android.content.Context,android.content.Intent)>",
+			"call_APIs":["<android.util.Log: int i(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.Connector: void onDestroy()>",
+			"call_APIs":["<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.app.Service: void onDestroy()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.Connector: void <init>()>",
+			"call_APIs":["<android.app.Service: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.EditDevice: void setVolVisibility()>",
+			"call_APIs":["<android.view.View: void setVisibility(int)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.AppChooser: void onCreate(android.os.Bundle)>",
+			"call_APIs":["<android.app.ProgressDialog: void setMessage(java.lang.CharSequence)>","<android.app.Dialog: void show()>","<android.app.ProgressDialog: void setIndeterminate(boolean)>","<android.app.Activity: void setTitle(java.lang.CharSequence)>","<android.app.ProgressDialog: void <init>(android.content.Context)>","<android.app.Activity: void onCreate(android.os.Bundle)>","<android.app.Dialog: void setCancelable(boolean)>","<android.app.Activity: void setContentView(int)>","<android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.Preferences: void setupActionBar()>",
+			"call_APIs":["<android.app.Activity: android.app.ActionBar getActionBar()>","<android.app.ActionBar: void setDisplayHomeAsUpEnabled(boolean)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.DeviceDB: void update(a2dp.Vol.btDevice)>",
+			"call_APIs":["<android.content.ContentValues: void put(java.lang.String,java.lang.Boolean)>","<android.content.ContentValues: void put(java.lang.String,java.lang.String)>","<android.content.ContentValues: void put(java.lang.String,java.lang.Long)>","<android.content.ContentValues: void <init>()>","<android.database.sqlite.SQLiteDatabase: int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[])>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.NotificationCatcher: void onNotificationRemoved(android.service.notification.StatusBarNotification)>",
+			"call_APIs":["<android.service.notification.NotificationListenerService: void onNotificationRemoved(android.service.notification.StatusBarNotification)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$20: void onServiceConnected(android.content.ComponentName,android.os.IBinder)>",
+			"call_APIs":["<android.bluetooth.BluetoothAdapter: android.bluetooth.BluetoothAdapter getDefaultAdapter()>","<android.bluetooth.IBluetoothA2dp$Stub: android.bluetooth.IBluetoothA2dp asInterface(android.os.IBinder)>","<android.bluetooth.BluetoothAdapter: java.util.Set getBondedDevices()>","<android.bluetooth.BluetoothDevice: java.lang.String getAddress()>","<android.bluetooth.IBluetoothA2dp: boolean connect(android.bluetooth.BluetoothDevice)>","<android.util.Log: int e(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main$13: void onReceive(android.content.Context,android.content.Intent)>",
+			"call_APIs":["<android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)>","<android.content.Intent: android.content.Intent setAction(java.lang.String)>","<android.content.Intent: void <init>(java.lang.String)>","<android.content.ContextWrapper: android.content.Context getBaseContext()>","<android.os.Environment: java.io.File getExternalStorageDirectory()>","<android.app.Activity: void startActivity(android.content.Intent)>","<android.content.Intent: void <init>()>","<android.content.ContextWrapper: java.io.File getFilesDir()>","<android.util.Log: int e(java.lang.String,java.lang.String)>","<android.app.Activity: void startActivityForResult(android.content.Intent,int)>"],
+			"call_external_APIs":["<android.support.v4.app.NotificationManagerCompat: java.util.Set getEnabledListenerPackages(android.content.Context)>"],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main: void <init>()>",
+			"call_APIs":["<android.app.Activity: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service: void updateNot()>",
+			"call_APIs":["<android.content.ContextWrapper: android.content.res.Resources getResources()>","<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>","<android.app.Service: void startForeground(int,android.app.Notification)>","<android.content.res.Resources: java.lang.String getString(int)>","<android.app.NotificationManager: void cancel(int)>","<android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)>","<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.app.NotificationManager: void cancelAll()>","<android.os.Build$VERSION: int SDK_INT>"],
+			"call_external_APIs":["<android.support.v4.app.NotificationManagerCompat: void cancelAll()>","<android.support.v4.app.NotificationCompat$Builder: android.app.Notification build()>","<android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setChannelId(java.lang.String)>","<android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setSmallIcon(int)>","<android.support.v4.app.NotificationManagerCompat: void notify(int,android.app.Notification)>","<android.support.v4.app.NotificationCompat$Builder: void <init>(android.content.Context,java.lang.String)>","<android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setContentTitle(java.lang.CharSequence)>","<android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setPriority(int)>","<android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setContentIntent(android.app.PendingIntent)>","<android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setCategory(java.lang.String)>","<android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setContentText(java.lang.CharSequence)>"],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.DeviceDB$OpenHelper: void onCreate(android.database.sqlite.SQLiteDatabase)>",
+			"call_APIs":["<android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.Connector$2: void onServiceConnected(android.content.ComponentName,android.os.IBinder)>",
+			"call_APIs":["<android.bluetooth.BluetoothAdapter: android.bluetooth.BluetoothAdapter getDefaultAdapter()>","<android.bluetooth.IBluetoothA2dp$Stub: android.bluetooth.IBluetoothA2dp asInterface(android.os.IBinder)>","<android.bluetooth.BluetoothAdapter: java.util.Set getBondedDevices()>","<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.bluetooth.BluetoothDevice: java.lang.String getAddress()>","<android.util.Log: int e(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.Preferences: void onDestroy()>",
+			"call_APIs":["<android.app.Activity: android.app.Application getApplication()>","<android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)>","<android.content.SharedPreferences: android.content.SharedPreferences$Editor edit()>","<android.content.ContextWrapper: android.content.ComponentName startService(android.content.Intent)>","<android.content.ContextWrapper: android.content.ComponentName startForegroundService(android.content.Intent)>","<android.content.Intent: void <init>()>","<android.content.Intent: android.content.Intent setAction(java.lang.String)>","<android.content.ContextWrapper: void sendBroadcast(android.content.Intent)>","<android.content.SharedPreferences$Editor: void apply()>","<android.preference.PreferenceActivity: void onDestroy()>","<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>","<android.os.Build$VERSION: int SDK_INT>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.PackagesChooser$PackageListAdapter: void <init>(a2dp.Vol.PackagesChooser,android.content.Context)>",
+			"call_APIs":["<android.widget.ArrayAdapter: void <init>(android.content.Context,int,java.util.List)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main: android.bluetooth.IBluetooth getIBluetooth()>",
+			"call_APIs":["<android.os.IBinder: java.lang.String getInterfaceDescriptor()>","<android.util.Log: int d(java.lang.String,java.lang.String)>","<android.util.Log: int e(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ConnectWidgetConfigureActivity: java.lang.String loadTitlePref(android.content.Context,int)>",
+			"call_APIs":["<android.content.Context: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)>","<android.content.Context: java.lang.String getString(int)>","<android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.MyApplication: void onCreate()>",
+			"call_APIs":["<android.util.Log: int d(java.lang.String,java.lang.String)>","<android.app.Application: void onCreate()>","<android.util.Log: int e(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData$ExportLocationTask: java.lang.Boolean doInBackground(java.lang.String[])>",
+			"call_APIs":["<android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)>","<android.content.ContextWrapper: java.io.File getFileStreamPath(java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.AppChooser: void <init>()>",
+			"call_APIs":["<android.os.Handler: void <init>()>","<android.app.Activity: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ConnectWidgetConfigureActivity: void deleteTitlePref(android.content.Context,int)>",
+			"call_APIs":["<android.content.SharedPreferences: android.content.SharedPreferences$Editor edit()>","<android.content.Context: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)>","<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor remove(java.lang.String)>","<android.content.SharedPreferences$Editor: void apply()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.DeviceDB$OpenHelper: void <init>(android.content.Context)>",
+			"call_APIs":["<android.database.sqlite.SQLiteOpenHelper: void <init>(android.content.Context,java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$1: void onReceive(android.content.Context,android.content.Intent)>",
+			"call_APIs":["<android.content.Intent: java.lang.String getStringExtra(java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main$14: void onReceive(android.content.Context,android.content.Intent)>",
+			"call_APIs":["<android.widget.TextView: void setText(int)>","<android.util.Log: int e(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData: void onPause()>",
+			"call_APIs":["<android.app.Activity: void onPause()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<dalvik.bytecode.OpcodeInfo: void <clinit>()>",
+			"call_APIs":["<dalvik.bytecode.OpcodeInfo: int MAXIMUM_PACKED_VALUE>","<dalvik.bytecode.OpcodeInfo: int MAXIMUM_VALUE>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main: int getBtDevices(int)>",
+			"call_APIs":["<android.bluetooth.BluetoothDevice: java.lang.String getName()>","<android.bluetooth.BluetoothAdapter: android.bluetooth.BluetoothAdapter getDefaultAdapter()>","<android.content.Intent: void <init>(java.lang.String)>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,int,int)>","<android.bluetooth.BluetoothAdapter: boolean isEnabled()>","<android.bluetooth.BluetoothDevice: java.lang.String getAddress()>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>","<android.widget.Toast: void show()>","<android.bluetooth.BluetoothAdapter: java.util.Set getBondedDevices()>","<android.media.AudioManager: int getStreamMaxVolume(int)>","<android.content.Context: java.lang.String getString(int)>","<android.os.Build$VERSION: int SDK_INT>","<android.app.Activity: void startActivityForResult(android.content.Intent,int)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main$1: void onClick(android.content.DialogInterface,int)>",
+			"call_APIs":["<android.content.DialogInterface: void cancel()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ConnectWidgetConfigureActivity: void config(int)>",
+			"call_APIs":["<android.bluetooth.BluetoothAdapter: android.bluetooth.BluetoothAdapter getDefaultAdapter()>","<android.bluetooth.BluetoothAdapter: boolean isEnabled()>","<android.app.Activity: void finish()>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,int,int)>","<android.widget.Toast: void show()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.Connector$ConnectBt: void <init>(a2dp.Vol.Connector)>",
+			"call_APIs":["<android.bluetooth.BluetoothAdapter: android.bluetooth.BluetoothAdapter getDefaultAdapter()>","<android.os.AsyncTask: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.CustomIntentMaker: void initViews()>",
+			"call_APIs":["<android.app.Activity: android.view.View findViewById(int)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.PackagesChooser$AppInfoCache: android.graphics.drawable.Drawable getIcon()>",
+			"call_APIs":["<android.content.pm.PackageManager: android.graphics.drawable.Drawable getApplicationIcon(java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.EditDevice: void onCreate(android.os.Bundle)>",
+			"call_APIs":["<android.app.Activity: android.app.Application getApplication()>","<android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)>","<android.content.Intent: java.lang.String getStringExtra(java.lang.String)>","<android.view.View: boolean requestFocus()>","<android.view.View: void setOnLongClickListener(android.view.View$OnLongClickListener)>","<android.app.Activity: void finish()>","<android.view.View: void setOnClickListener(android.view.View$OnClickListener)>","<android.widget.TextView: void setEnabled(boolean)>","<android.app.Activity: android.view.View findViewById(int)>","<android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)>","<android.widget.AbsSeekBar: void setMax(int)>","<android.widget.TextView: void setText(java.lang.CharSequence)>","<android.widget.ProgressBar: void setProgress(int)>","<android.app.Activity: android.content.Intent getIntent()>","<android.widget.CompoundButton: void setOnCheckedChangeListener(android.widget.CompoundButton$OnCheckedChangeListener)>","<android.app.Activity: java.lang.Object getSystemService(java.lang.String)>","<android.media.AudioManager: int getStreamMaxVolume(int)>","<android.widget.SeekBar: void setOnSeekBarChangeListener(android.widget.SeekBar$OnSeekBarChangeListener)>","<android.widget.CompoundButton: void setChecked(boolean)>","<android.app.Activity: void onCreate(android.os.Bundle)>","<android.app.Activity: void setContentView(int)>","<android.os.BaseBundle: java.lang.String getString(java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<dalvik.system.InMemoryDexClassLoader: void <init>(java.nio.ByteBuffer,java.lang.ClassLoader)>",
+			"call_APIs":["<dalvik.system.BaseDexClassLoader: void <init>(java.lang.String,java.io.File,java.lang.String,java.lang.ClassLoader)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main$4: boolean onItemLongClick(android.widget.AdapterView,android.view.View,int,long)>",
+			"call_APIs":["<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setNeutralButton(int,android.content.DialogInterface$OnClickListener)>","<android.bluetooth.BluetoothAdapter: android.bluetooth.BluetoothAdapter getDefaultAdapter()>","<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setPositiveButton(java.lang.CharSequence,android.content.DialogInterface$OnClickListener)>","<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setMessage(java.lang.CharSequence)>","<android.bluetooth.BluetoothAdapter: java.util.Set getBondedDevices()>","<android.content.res.Resources: java.lang.String getString(int)>","<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setTitle(java.lang.CharSequence)>","<android.app.AlertDialog$Builder: android.app.AlertDialog show()>","<android.bluetooth.BluetoothDevice: int getBondState()>","<android.bluetooth.BluetoothDevice: java.lang.String getAddress()>","<android.app.AlertDialog$Builder: void <init>(android.content.Context)>","<android.content.Context: java.lang.CharSequence getText(int)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData$SelectDataTask: void onPreExecute()>",
+			"call_APIs":["<android.app.ProgressDialog: void setMessage(java.lang.CharSequence)>","<android.app.Dialog: void show()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData: void onCreate(android.os.Bundle)>",
+			"call_APIs":["<android.app.Activity: android.app.Application getApplication()>","<android.os.Environment: java.io.File getExternalStorageDirectory()>","<android.view.View: void setOnClickListener(android.view.View$OnClickListener)>","<android.os.AsyncTask: android.os.AsyncTask execute(java.lang.Object[])>","<android.app.Activity: void onCreate(android.os.Bundle)>","<android.app.Activity: void setContentView(int)>","<android.app.Activity: android.view.View findViewById(int)>"],
+			"call_external_APIs":["<android.support.v4.content.ContextCompat: int checkSelfPermission(android.content.Context,java.lang.String)>","<android.support.v4.app.ActivityCompat: void requestPermissions(android.app.Activity,java.lang.String[],int)>","<android.support.v4.app.ActivityCompat: boolean shouldShowRequestPermissionRationale(android.app.Activity,java.lang.String)>"],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.Preferences: void onCreate(android.os.Bundle)>",
+			"call_APIs":["<android.app.Activity: android.app.Application getApplication()>","<android.preference.PreferenceActivity: void addPreferencesFromResource(int)>","<android.preference.PreferenceActivity: void onCreate(android.os.Bundle)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service: void stopApp(java.lang.String)>",
+			"call_APIs":["<android.content.ContextWrapper: java.lang.Object getSystemService(java.lang.String)>","<android.app.ActivityManager: void killBackgroundProcesses(java.lang.String)>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,int,int)>","<android.os.Process: void killProcess(int)>","<android.content.ContextWrapper: android.content.Context getApplicationContext()>","<android.app.ActivityManager$RunningAppProcessInfo: java.lang.String[] pkgList>","<android.app.ActivityManager$RunningAppProcessInfo: int pid>","<android.content.pm.PackageManager: android.content.Intent getLaunchIntentForPackage(java.lang.String)>","<android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()>","<android.widget.Toast: void show()>","<android.app.ActivityManager: java.util.List getRunningAppProcesses()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service: void set_car_mode(boolean)>",
+			"call_APIs":["<android.app.UiModeManager: void enableCarMode(int)>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>","<android.content.ContextWrapper: java.lang.Object getSystemService(java.lang.String)>","<android.app.UiModeManager: void disableCarMode(int)>","<android.widget.Toast: void show()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData$4: void onClick(android.view.View)>",
+			"call_APIs":["<android.os.AsyncTask: android.os.AsyncTask execute(java.lang.Object[])>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,int,int)>","<android.widget.Toast: void show()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.EditDevice: void setAppVisibility()>",
+			"call_APIs":["<android.widget.EditText: android.text.Editable getText()>","<android.view.View: void setVisibility(int)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service: int checkIcon(int)>",
+			"call_APIs":["<android.util.Log: int e(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.EditDevice: void onActivityResult(int,int,android.content.Intent)>",
+			"call_APIs":["<android.content.Intent: java.lang.String getAction()>","<android.content.Intent: java.lang.String getStringExtra(java.lang.String)>","<android.content.Intent: java.lang.String getType()>","<android.net.Uri: java.lang.String toString()>","<android.app.Activity: void startActivityForResult(android.content.Intent,int)>","<android.content.Intent: android.net.Uri getData()>","<android.app.Activity: void onActivityResult(int,int,android.content.Intent)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service: boolean runApp(a2dp.Vol.btDevice)>",
+			"call_APIs":["<android.content.Intent: android.content.Intent setData(android.net.Uri)>","<android.content.Intent: android.content.Intent setAction(java.lang.String)>","<android.net.Uri: android.net.Uri parse(java.lang.String)>","<android.app.ActivityManager: void killBackgroundProcesses(java.lang.String)>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,int,int)>","<android.content.Intent: android.content.Intent setFlags(int)>","<android.content.Intent: android.content.Intent setType(java.lang.String)>","<android.content.ContextWrapper: android.content.Context getApplicationContext()>","<android.content.Intent: android.content.Intent putExtra(java.lang.String,android.os.Parcelable)>","<android.widget.Toast: void show()>","<android.content.Intent: void <init>()>","<android.content.Intent: android.content.Intent parseUri(java.lang.String,int)>","<android.content.ContextWrapper: java.lang.Object getSystemService(java.lang.String)>","<android.content.ContextWrapper: void startActivity(android.content.Intent)>","<android.content.pm.PackageManager: android.content.Intent getLaunchIntentForPackage(java.lang.String)>","<android.content.ContextWrapper: java.lang.String getPackageName()>","<android.util.Log: int e(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.EditDevice: void <init>()>",
+			"call_APIs":["<android.app.Activity: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.EditDevice: void setMediaVisibility()>",
+			"call_APIs":["<android.widget.CompoundButton: boolean isChecked()>","<android.view.View: void setVisibility(int)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ConnectWidget: void updateAppWidget(android.content.Context,android.appwidget.AppWidgetManager,int)>",
+			"call_APIs":["<android.widget.RemoteViews: void <init>(java.lang.String,int)>","<android.widget.RemoteViews: void setTextViewText(int,java.lang.CharSequence)>","<android.appwidget.AppWidgetManager: void updateAppWidget(int,android.widget.RemoteViews)>","<android.content.Context: java.lang.String getPackageName()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.CustomIntentMaker: void onCreate(android.os.Bundle)>",
+			"call_APIs":["<android.app.Activity: android.app.Application getApplication()>","<android.widget.TextView: void setText(java.lang.CharSequence)>","<android.content.Intent: java.lang.String getStringExtra(java.lang.String)>","<android.widget.TextView: void setEnabled(boolean)>","<android.app.Activity: void setTitle(java.lang.CharSequence)>","<android.app.Activity: void onCreate(android.os.Bundle)>","<android.app.Activity: android.content.Intent getIntent()>","<android.app.Activity: void setContentView(int)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.DeviceDB: java.util.Vector selectAlldb()>",
+			"call_APIs":["<android.database.Cursor: boolean isClosed()>","<android.database.Cursor: boolean moveToNext()>","<android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>","<android.database.Cursor: void close()>","<android.database.Cursor: int getInt(int)>","<android.database.Cursor: java.lang.String getString(int)>","<android.database.Cursor: boolean moveToFirst()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service: void doUnbind()>",
+			"call_APIs":["<android.content.ContextWrapper: void unbindService(android.content.ServiceConnection)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<dalvik.system.DexClassLoader: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.ClassLoader)>",
+			"call_APIs":["<dalvik.system.BaseDexClassLoader: void <init>(java.lang.String,java.io.File,java.lang.String,java.lang.ClassLoader)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$8: void onReceive(android.content.Context,android.content.Intent)>",
+			"call_APIs":["<android.util.Log: int i(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$24: void <init>(a2dp.Vol.service)>",
+			"call_APIs":["<android.content.BroadcastReceiver: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.DeviceDB: long insert(a2dp.Vol.btDevice)>",
+			"call_APIs":["<android.database.sqlite.SQLiteProgram: void bindLong(int,long)>","<android.database.sqlite.SQLiteProgram: void bindString(int,java.lang.String)>","<android.database.sqlite.SQLiteStatement: long executeInsert()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<dalvik.system.InMemoryDexClassLoader: void <init>(java.nio.ByteBuffer[],java.lang.ClassLoader)>",
+			"call_APIs":["<dalvik.system.BaseDexClassLoader: void <init>(java.lang.String,java.io.File,java.lang.String,java.lang.ClassLoader)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main: void onCreate(android.os.Bundle)>",
+			"call_APIs":["<android.app.Activity: android.app.Application getApplication()>","<android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)>","<android.content.ContextWrapper: android.content.ComponentName startService(android.content.Intent)>","<android.content.Intent: android.content.Intent setAction(java.lang.String)>","<android.view.View: void setOnLongClickListener(android.view.View$OnLongClickListener)>","<android.view.ContextThemeWrapper: android.content.res.Resources getResources()>","<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>","<android.widget.ArrayAdapter: void <init>(android.content.Context,int,java.lang.Object[])>","<android.content.res.Resources: java.lang.String getString(int)>","<android.os.Environment: java.io.File getExternalStorageDirectory()>","<android.widget.AdapterView: void setOnItemClickListener(android.widget.AdapterView$OnItemClickListener)>","<android.view.View: void setOnClickListener(android.view.View$OnClickListener)>","<android.os.CountDownTimer: android.os.CountDownTimer start()>","<android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()>","<android.app.Activity: android.view.View findViewById(int)>","<android.content.ContextWrapper: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>","<android.widget.ListView: void setAdapter(android.widget.ListAdapter)>","<android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)>","<android.content.Intent: void <init>()>","<android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)>","<android.widget.TextView: void setText(int)>","<android.content.ComponentName: void <init>(java.lang.String,java.lang.String)>","<android.content.ContextWrapper: java.io.File getFilesDir()>","<android.app.Activity: java.lang.Object getSystemService(java.lang.String)>","<android.content.ContextWrapper: android.content.ComponentName startForegroundService(android.content.Intent)>","<android.app.Activity: void setTitle(java.lang.CharSequence)>","<android.content.pm.PackageInfo: java.lang.String versionName>","<android.app.Activity: void onCreate(android.os.Bundle)>","<android.content.ComponentName: java.lang.String getPackageName()>","<android.app.Activity: void setContentView(int)>","<android.content.IntentFilter: void <init>(java.lang.String)>","<android.util.Log: int e(java.lang.String,java.lang.String)>","<android.os.Build$VERSION: int SDK_INT>","<android.app.Activity: void startActivityForResult(android.content.Intent,int)>","<android.widget.AdapterView: void setOnItemLongClickListener(android.widget.AdapterView$OnItemLongClickListener)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData$ExportLocationTask: void onPreExecute()>",
+			"call_APIs":["<android.app.ProgressDialog: void setMessage(java.lang.CharSequence)>","<android.app.Dialog: void show()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$8: void <init>(a2dp.Vol.service)>",
+			"call_APIs":["<android.content.BroadcastReceiver: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData$ExportLocationTask: void <init>(a2dp.Vol.ManageData)>",
+			"call_APIs":["<android.app.ProgressDialog: void <init>(android.content.Context)>","<android.os.AsyncTask: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData$ExportDatabaseFileTask: void <init>(a2dp.Vol.ManageData)>",
+			"call_APIs":["<android.app.ProgressDialog: void <init>(android.content.Context)>","<android.os.AsyncTask: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main: void onResume()>",
+			"call_APIs":["<android.app.Activity: void onResume()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.NotificationCatcher: void <init>()>",
+			"call_APIs":["<android.service.notification.NotificationListenerService: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$21: void onFinish()>",
+			"call_APIs":["<android.widget.Toast: android.widget.Toast makeText(android.content.Context,int,int)>","<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.widget.Toast: void show()>","<android.util.Log: int e(java.lang.String,java.lang.String)>","<android.speech.tts.TextToSpeech: int speak(java.lang.CharSequence,int,android.os.Bundle,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.EditDevice: boolean onNavigateUp()>",
+			"call_APIs":["<android.app.Activity: boolean onNavigateUp()>","<android.app.Activity: void finish()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.Widget: void onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])>",
+			"call_APIs":["<android.appwidget.AppWidgetProvider: void onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])>","<android.widget.RemoteViews: void setOnClickPendingIntent(int,android.app.PendingIntent)>","<android.app.PendingIntent: android.app.PendingIntent getService(android.content.Context,int,android.content.Intent,int)>","<android.widget.RemoteViews: void <init>(java.lang.String,int)>","<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>","<android.appwidget.AppWidgetManager: void updateAppWidget(int,android.widget.RemoteViews)>","<android.content.Context: java.lang.String getPackageName()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.StoreLoc: void registerListeners()>",
+			"call_APIs":["<android.location.LocationManager: void requestLocationUpdates(java.lang.String,long,float,android.location.LocationListener)>","<android.location.LocationManager: boolean isProviderEnabled(java.lang.String)>"],
+			"call_external_APIs":["<android.support.v4.content.ContextCompat: int checkSelfPermission(android.content.Context,java.lang.String)>"],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData: void onDestroy()>",
+			"call_APIs":["<android.app.Activity: void setResult(int,android.content.Intent)>","<android.content.Intent: void <init>()>","<android.app.Activity: void onDestroy()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.AppChooser: void doListFilter()>",
+			"call_APIs":["<android.widget.ArrayAdapter: void notifyDataSetChanged()>","<android.widget.EditText: android.text.Editable getText()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<dalvik.system.DelegateLastClassLoader: void <init>(java.lang.String,java.lang.ClassLoader)>",
+			"call_APIs":["<dalvik.system.PathClassLoader: void <init>(java.lang.String,java.lang.ClassLoader)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.NotificationCatcher: void onCreate()>",
+			"call_APIs":["<android.app.Service: android.app.Application getApplication()>","<android.content.IntentFilter: void <init>(java.lang.String)>","<android.content.ContextWrapper: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>","<android.app.Service: void onCreate()>","<android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main: void check_permissions(int)>",
+			"call_APIs":[],
+			"call_external_APIs":["<android.support.v4.content.ContextCompat: int checkSelfPermission(android.content.Context,java.lang.String)>","<android.support.v4.app.ActivityCompat: void requestPermissions(android.app.Activity,java.lang.String[],int)>","<android.support.v4.app.ActivityCompat: boolean shouldShowRequestPermissionRationale(android.app.Activity,java.lang.String)>"],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service: void registerRecievers()>",
+			"call_APIs":["<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.app.UiModeManager: java.lang.String ACTION_EXIT_CAR_MODE>","<android.app.UiModeManager: java.lang.String ACTION_ENTER_DESK_MODE>","<android.content.IntentFilter: void <init>(java.lang.String)>","<android.content.ContextWrapper: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>","<android.app.UiModeManager: java.lang.String ACTION_ENTER_CAR_MODE>","<android.app.UiModeManager: java.lang.String ACTION_EXIT_DESK_MODE>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData$SelectDataTask: void <init>(a2dp.Vol.ManageData)>",
+			"call_APIs":["<android.app.ProgressDialog: void <init>(android.content.Context)>","<android.os.AsyncTask: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$22: void onInit(int)>",
+			"call_APIs":["<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.speech.tts.TextToSpeech: int setOnUtteranceProgressListener(android.speech.tts.UtteranceProgressListener)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData: void onRequestPermissionsResult(int,java.lang.String[],int[])>",
+			"call_APIs":["<android.app.Activity: void finish()>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,int,int)>","<android.widget.Toast: void show()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service: void createNotificationChannel()>",
+			"call_APIs":["<android.app.NotificationManager: void createNotificationChannel(android.app.NotificationChannel)>","<android.content.Context: java.lang.Object getSystemService(java.lang.Class)>","<android.content.Context: java.lang.String getString(int)>","<android.app.NotificationChannel: void setDescription(java.lang.String)>","<android.os.Build$VERSION: int SDK_INT>","<android.app.NotificationChannel: void <init>(java.lang.String,java.lang.CharSequence,int)>"],
+			"call_external_APIs":["<android.support.v4.app.NotificationManagerCompat: android.support.v4.app.NotificationManagerCompat from(android.content.Context)>"],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$19: void onFinish()>",
+			"call_APIs":["<android.content.Intent: void <init>(java.lang.String)>","<android.app.NotificationManager: boolean isNotificationPolicyAccessGranted()>","<android.content.ContextWrapper: java.lang.Object getSystemService(java.lang.String)>","<android.media.AudioManager: void setStreamVolume(int,int,int)>","<android.content.Intent: android.content.Intent setFlags(int)>","<android.content.ContextWrapper: void startActivity(android.content.Intent)>","<android.util.Log: int e(java.lang.String,java.lang.String)>","<android.os.Build$VERSION: int SDK_INT>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main$14: void <init>(a2dp.Vol.main)>",
+			"call_APIs":["<android.content.BroadcastReceiver: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service: void setVolume(int)>",
+			"call_APIs":["<android.content.Intent: void <init>(java.lang.String)>","<android.app.NotificationManager: boolean isNotificationPolicyAccessGranted()>","<android.content.ContextWrapper: java.lang.Object getSystemService(java.lang.String)>","<android.media.AudioManager: int getStreamVolume(int)>","<android.media.AudioManager: void setStreamVolume(int,int,int)>","<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.content.Intent: android.content.Intent setFlags(int)>","<android.media.AudioManager: int getStreamMaxVolume(int)>","<android.content.ContextWrapper: void startActivity(android.content.Intent)>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>","<android.os.CountDownTimer: android.os.CountDownTimer start()>","<android.media.AudioManager: boolean isVolumeFixed()>","<android.widget.Toast: void show()>","<android.util.Log: int e(java.lang.String,java.lang.String)>","<android.os.Build$VERSION: int SDK_INT>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service: boolean isMyServiceRunning(java.lang.Class)>",
+			"call_APIs":["<android.content.ContextWrapper: java.lang.Object getSystemService(java.lang.String)>","<android.app.ActivityManager: java.util.List getRunningServices(int)>","<android.app.ActivityManager$RunningServiceInfo: android.content.ComponentName service>","<android.content.ComponentName: java.lang.String getClassName()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.AppChooser$PackageListAdapter: android.view.View getView(int,android.view.View,android.view.ViewGroup)>",
+			"call_APIs":["<android.widget.TextView: void setText(java.lang.CharSequence)>","<android.view.LayoutInflater: android.view.LayoutInflater from(android.content.Context)>","<android.widget.ArrayAdapter: java.lang.Object getItem(int)>","<android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup,boolean)>","<android.view.View: android.view.View findViewById(int)>","<android.widget.ImageView: void setImageDrawable(android.graphics.drawable.Drawable)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.EditDevice$7: void onClick(android.view.View)>",
+			"call_APIs":["<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setTitle(int)>","<android.app.AlertDialog$Builder: android.app.AlertDialog show()>","<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setItems(java.lang.CharSequence[],android.content.DialogInterface$OnClickListener)>","<android.app.AlertDialog$Builder: void <init>(android.content.Context)>","<android.app.AlertDialog$Builder: android.app.AlertDialog create()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.Preferences: void onContentChanged()>",
+			"call_APIs":["<android.preference.PreferenceActivity: void onContentChanged()>","<android.content.ContextWrapper: boolean stopService(android.content.Intent)>","<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.CustomIntentMaker: void <init>()>",
+			"call_APIs":["<android.app.Activity: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ConnectWidget: void <init>()>",
+			"call_APIs":["<android.appwidget.AppWidgetProvider: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$14: void <init>(a2dp.Vol.service)>",
+			"call_APIs":["<android.content.BroadcastReceiver: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.PackagesChooser: void <init>()>",
+			"call_APIs":["<android.os.Handler: void <init>()>","<android.app.Activity: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.StoreLoc: void <init>()>",
+			"call_APIs":["<android.app.Service: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData: void finish()>",
+			"call_APIs":["<android.app.Activity: void setResult(int,android.content.Intent)>","<android.content.Intent: void <init>()>","<android.app.Activity: void finish()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service: void UpdateConnectWidgets()>",
+			"call_APIs":["<android.appwidget.AppWidgetManager: android.appwidget.AppWidgetManager getInstance(android.content.Context)>","<android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)>","<android.widget.RemoteViews: void setInt(int,java.lang.String,int)>","<android.content.Intent: android.content.Intent setAction(java.lang.String)>","<android.app.Service: android.app.Application getApplication()>","<android.content.ContextWrapper: void sendBroadcast(android.content.Intent)>","<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>","<android.appwidget.AppWidgetManager: void updateAppWidget(int,android.widget.RemoteViews)>","<android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)>","<android.content.ComponentName: void <init>(android.content.Context,java.lang.Class)>","<android.content.Intent: android.content.Intent putExtra(java.lang.String,int[])>","<android.appwidget.AppWidgetManager: int[] getAppWidgetIds(android.content.ComponentName)>","<android.widget.RemoteViews: void <init>(java.lang.String,int)>","<android.content.ContextWrapper: java.lang.String getPackageName()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<org.xmlpull.v1.XmlPullParserException: void <init>(java.lang.String)>",
+			"call_APIs":["<org.xmlpull.v1.XmlPullParserException: int row>","<org.xmlpull.v1.XmlPullParserException: int column>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.Connector$ConnectBt: java.lang.Boolean doInBackground(java.lang.String[])>",
+			"call_APIs":["<android.bluetooth.BluetoothDevice: java.lang.String getName()>","<android.bluetooth.BluetoothAdapter: android.bluetooth.BluetoothAdapter getDefaultAdapter()>","<android.bluetooth.IBluetoothA2dp: int getConnectionState(android.bluetooth.BluetoothDevice)>","<android.bluetooth.BluetoothAdapter: java.util.Set getBondedDevices()>","<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.bluetooth.IBluetoothA2dp: boolean disconnect(android.bluetooth.BluetoothDevice)>","<android.bluetooth.BluetoothAdapter: boolean isEnabled()>","<android.bluetooth.BluetoothDevice: java.lang.String getAddress()>","<android.bluetooth.IBluetoothA2dp: boolean connect(android.bluetooth.BluetoothDevice)>","<android.util.Log: int e(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$17: void onFinish()>",
+			"call_APIs":[],
+			"call_external_APIs":["<android.support.v4.app.NotificationManagerCompat: void cancel(int)>"],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main: java.lang.String getBTClassDevMaj(android.bluetooth.BluetoothDevice)>",
+			"call_APIs":["<android.bluetooth.BluetoothClass: int getMajorDeviceClass()>","<android.bluetooth.BluetoothDevice: android.bluetooth.BluetoothClass getBluetoothClass()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$12: void onReceive(android.content.Context,android.content.Intent)>",
+			"call_APIs":["<android.content.Intent: java.lang.String getAction()>","<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.os.BaseBundle: java.lang.Object get(java.lang.String)>","<android.content.Intent: android.os.Bundle getExtras()>","<android.bluetooth.BluetoothDevice: java.lang.String getAddress()>","<android.util.Log: int e(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main: void refreshList(int)>",
+			"call_APIs":["<android.widget.AbsListView: void invalidateViews()>","<android.widget.ArrayAdapter: void notifyDataSetChanged()>","<android.view.View: void forceLayout()>","<android.widget.ArrayAdapter: void <init>(android.content.Context,int,java.lang.Object[])>","<android.widget.ListView: void setAdapter(android.widget.ListAdapter)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ALauncher: void <init>()>",
+			"call_APIs":["<android.app.Service: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main: void onActivityResult(int,int,android.content.Intent)>",
+			"call_APIs":["<android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)>","<android.content.Intent: void <init>()>","<android.content.Intent: android.content.Intent setAction(java.lang.String)>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>","<android.content.ContextWrapper: void sendBroadcast(android.content.Intent)>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,int,int)>","<android.widget.Toast: void show()>","<android.app.Activity: void startActivityForResult(android.content.Intent,int)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$15: void <init>(a2dp.Vol.service)>",
+			"call_APIs":["<android.content.BroadcastReceiver: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.NotificationCatcher$Readit: java.lang.Long doInBackground(android.service.notification.StatusBarNotification[])>",
+			"call_APIs":["<android.os.Bundle: java.lang.CharSequence[] getCharSequenceArray(java.lang.String)>","<android.app.Notification: android.os.Bundle extras>","<android.content.Intent: android.content.Intent setAction(java.lang.String)>","<android.service.notification.StatusBarNotification: java.lang.String getPackageName()>","<android.app.Notification: long when>","<android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()>","<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>","<android.content.Intent: void <init>()>","<android.content.ContextWrapper: void sendBroadcast(android.content.Intent)>","<android.service.notification.StatusBarNotification: android.app.Notification getNotification()>","<android.app.Notification: java.lang.CharSequence tickerText>","<android.content.pm.PackageManager: java.lang.CharSequence getApplicationLabel(android.content.pm.ApplicationInfo)>","<android.os.BaseBundle: boolean isEmpty()>","<android.content.pm.PackageManager: android.content.pm.ApplicationInfo getApplicationInfo(java.lang.String,int)>","<android.os.BaseBundle: java.lang.String getString(java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main$8: void onClick(android.view.View)>",
+			"call_APIs":["<android.content.ContextWrapper: boolean stopService(android.content.Intent)>","<android.content.ContextWrapper: android.content.ComponentName startService(android.content.Intent)>","<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ConnectWidgetConfigureActivity: void <init>()>",
+			"call_APIs":["<android.app.Activity: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.Widget: void onEnabled(android.content.Context)>",
+			"call_APIs":["<android.appwidget.AppWidgetProvider: void onEnabled(android.content.Context)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main: void onStop()>",
+			"call_APIs":["<android.app.Activity: void onStop()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.Connector: void connectBluetoothA2dp(java.lang.String)>",
+			"call_APIs":["<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.os.AsyncTask: android.os.AsyncTask execute(java.lang.Object[])>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.Connector: void createNotificationChannel()>",
+			"call_APIs":["<android.app.NotificationManager: void createNotificationChannel(android.app.NotificationChannel)>","<android.content.Context: java.lang.Object getSystemService(java.lang.Class)>","<android.content.Context: java.lang.String getString(int)>","<android.app.NotificationChannel: void setDescription(java.lang.String)>","<android.os.Build$VERSION: int SDK_INT>","<android.app.NotificationChannel: void <init>(java.lang.String,java.lang.CharSequence,int)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.NotificationCatcher: void onDestroy()>",
+			"call_APIs":["<android.service.notification.NotificationListenerService: void onDestroy()>","<android.content.ContextWrapper: void unregisterReceiver(android.content.BroadcastReceiver)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.Connector: void sendIntent()>",
+			"call_APIs":["<android.content.Intent: void <init>()>","<android.content.Intent: android.content.Intent setAction(java.lang.String)>","<android.content.Context: void sendBroadcast(android.content.Intent)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.AppChooser: void onPause()>",
+			"call_APIs":["<android.app.Activity: void onPause()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$16: void onFinish()>",
+			"call_APIs":["<android.util.Log: int e(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service: void onStart()>",
+			"call_APIs":["<android.util.Log: int i(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData$ExportDatabaseFileTask: void onPostExecute(java.lang.Boolean)>",
+			"call_APIs":["<android.app.Dialog: boolean isShowing()>","<android.widget.TextView: void setText(java.lang.CharSequence)>","<android.app.Dialog: void dismiss()>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>","<android.widget.Toast: void show()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<org.xmlpull.v1.XmlPullParser: void <clinit>()>",
+			"call_APIs":["<org.xmlpull.v1.XmlPullParser: java.lang.String[] TYPES>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.EditDevice: void onCreateNavigateUpTaskStack(android.app.TaskStackBuilder)>",
+			"call_APIs":["<android.app.Activity: void onCreateNavigateUpTaskStack(android.app.TaskStackBuilder)>","<android.app.Activity: void finish()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.NotificationCatcher: void LoadPrefs()>",
+			"call_APIs":["<android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.Starter: void <init>()>",
+			"call_APIs":["<android.content.BroadcastReceiver: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData$ImportDatabaseFileTask: java.lang.Boolean doInBackground(java.lang.String[])>",
+			"call_APIs":["<android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)>","<android.database.sqlite.SQLiteDatabase: java.lang.String getPath()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.PackagesChooser: boolean onCreateOptionsMenu(android.view.Menu)>",
+			"call_APIs":["<android.view.MenuInflater: void inflate(int,android.view.Menu)>","<android.app.Activity: android.view.View findViewById(int)>","<android.app.Activity: android.view.MenuInflater getMenuInflater()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main: java.lang.String getBTClassDev(android.bluetooth.BluetoothDevice)>",
+			"call_APIs":["<android.bluetooth.BluetoothClass: int getDeviceClass()>","<android.bluetooth.BluetoothDevice: android.bluetooth.BluetoothClass getBluetoothClass()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.NotificationCatcher$Readit: void <init>(a2dp.Vol.NotificationCatcher)>",
+			"call_APIs":["<android.os.AsyncTask: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main$9: void onFinish()>",
+			"call_APIs":["<android.widget.TextView: void setText(int)>","<android.util.Log: int e(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.AppChooser$2: void onClick(android.view.View)>",
+			"call_APIs":["<android.widget.TextView: void setText(java.lang.CharSequence)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main$12: void <init>(a2dp.Vol.main)>",
+			"call_APIs":["<android.content.BroadcastReceiver: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.CustomIntentMaker$3: void onClick(android.view.View)>",
+			"call_APIs":["<android.content.Intent: android.content.Intent setData(android.net.Uri)>","<android.content.Intent: void <init>()>","<android.content.Intent: android.content.Intent setAction(java.lang.String)>","<android.content.Intent: android.content.Intent parseUri(java.lang.String,int)>","<android.net.Uri: android.net.Uri parse(java.lang.String)>","<android.widget.TextView: void setEnabled(boolean)>","<android.content.Intent: android.content.ComponentName resolveActivity(android.content.pm.PackageManager)>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>","<android.content.Intent: android.content.Intent setType(java.lang.String)>","<android.widget.EditText: android.text.Editable getText()>","<android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()>","<android.widget.Toast: void show()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main$9: void <init>(a2dp.Vol.main,long,long)>",
+			"call_APIs":["<android.os.CountDownTimer: void <init>(long,long)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$13: void onReceive(android.content.Context,android.content.Intent)>",
+			"call_APIs":["<android.util.Log: int i(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.Connector: void doUnbind()>",
+			"call_APIs":["<android.content.Context: void unbindService(android.content.ServiceConnection)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.PackagesChooser$1: void run()>",
+			"call_APIs":["<android.content.ContextWrapper: android.content.Context getBaseContext()>","<android.content.pm.ApplicationInfo: java.lang.String className>","<android.content.pm.PackageItemInfo: java.lang.CharSequence loadLabel(android.content.pm.PackageManager)>","<android.content.pm.PackageItemInfo: java.lang.String packageName>","<android.os.Handler: boolean post(java.lang.Runnable)>","<android.content.pm.PackageManager: java.util.List getInstalledApplications(int)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData$ExportLocationTask: void onPostExecute(java.lang.Boolean)>",
+			"call_APIs":["<android.app.Dialog: boolean isShowing()>","<android.widget.TextView: void setText(java.lang.CharSequence)>","<android.app.Dialog: void dismiss()>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>","<android.widget.Toast: void show()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.EditDevice$6: boolean onLongClick(android.view.View)>",
+			"call_APIs":["<android.content.pm.PackageItemInfo: int icon>","<android.content.pm.ApplicationInfo: boolean enabled>","<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setItems(java.lang.CharSequence[],android.content.DialogInterface$OnClickListener)>","<android.app.AlertDialog$Builder: android.app.AlertDialog$Builder setTitle(java.lang.CharSequence)>","<android.app.Dialog: void show()>","<android.content.pm.PackageItemInfo: java.lang.String packageName>","<android.app.AlertDialog$Builder: void <init>(android.content.Context)>","<android.app.AlertDialog$Builder: android.app.AlertDialog create()>","<android.content.pm.PackageManager: java.util.List getInstalledApplications(int)>","<android.content.pm.PackageManager: android.content.Intent getLaunchIntentForPackage(java.lang.String)>","<android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<org.apache.http.conn.ssl.SSLSocketFactory: void <clinit>()>",
+			"call_APIs":["<org.apache.http.conn.ssl.SSLSocketFactory: org.apache.http.conn.ssl.X509HostnameVerifier STRICT_HOSTNAME_VERIFIER>","<org.apache.http.conn.ssl.SSLSocketFactory: org.apache.http.conn.ssl.X509HostnameVerifier ALLOW_ALL_HOSTNAME_VERIFIER>","<org.apache.http.conn.ssl.SSLSocketFactory: org.apache.http.conn.ssl.X509HostnameVerifier BROWSER_COMPATIBLE_HOSTNAME_VERIFIER>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$16: void onTick(long)>",
+			"call_APIs":["<android.util.Log: int e(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData$ExportDataAsXmlTask: void onPreExecute()>",
+			"call_APIs":["<android.app.ProgressDialog: void setMessage(java.lang.CharSequence)>","<android.app.Dialog: void show()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$3: void <init>(a2dp.Vol.service)>",
+			"call_APIs":["<android.content.BroadcastReceiver: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData$ExportDataAsXmlTask: void <init>(a2dp.Vol.ManageData)>",
+			"call_APIs":["<android.app.ProgressDialog: void <init>(android.content.Context)>","<android.os.AsyncTask: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.EditDevice: void setInCallVisibility()>",
+			"call_APIs":["<android.widget.CompoundButton: boolean isChecked()>","<android.view.View: void setVisibility(int)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData$ImportDatabaseFileTask: void <init>(a2dp.Vol.ManageData)>",
+			"call_APIs":["<android.app.ProgressDialog: void <init>(android.content.Context)>","<android.os.AsyncTask: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.PackagesChooser: boolean onOptionsItemSelected(android.view.MenuItem)>",
+			"call_APIs":["<android.app.Activity: boolean onOptionsItemSelected(android.view.MenuItem)>","<android.view.MenuItem: int getItemId()>"],
+			"call_external_APIs":["<android.support.v4.app.NavUtils: void navigateUpFromSameTask(android.app.Activity)>"],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.AppChooser: void onDestroy()>",
+			"call_APIs":["<android.app.Activity: void onDestroy()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.LocViewer: void <init>()>",
+			"call_APIs":[],
+			"call_external_APIs":["<android.support.v7.app.AppCompatActivity: void <init>()>"],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main$2: void onClick(android.content.DialogInterface,int)>",
+			"call_APIs":["<android.database.sqlite.SQLiteDatabase: boolean isOpen()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData: void onSaveInstanceState(android.os.Bundle)>",
+			"call_APIs":["<android.app.Activity: void onSaveInstanceState(android.os.Bundle)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$19: void <init>(long,long,int)>",
+			"call_APIs":["<android.os.CountDownTimer: void <init>(long,long)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.PackagesChooser: void onCreate(android.os.Bundle)>",
+			"call_APIs":["<android.app.Activity: android.app.Application getApplication()>","<android.app.Activity: void onCreate(android.os.Bundle)>","<android.app.Activity: void setContentView(int)>","<android.widget.ProgressBar: void setIndeterminate(boolean)>","<android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)>","<android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()>","<android.app.Activity: android.view.View findViewById(int)>","<android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service: void getConnects()>",
+			"call_APIs":["<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.os.Build$VERSION: int SDK_INT>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.EditDevice: void setTTSVisibility()>",
+			"call_APIs":["<android.widget.CompoundButton: boolean isChecked()>","<android.view.View: void setVisibility(int)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.CustomIntentMaker: void assignListeners()>",
+			"call_APIs":["<android.view.View: void setOnClickListener(android.view.View$OnClickListener)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$24: void onReceive(android.content.Context,android.content.Intent)>",
+			"call_APIs":["<android.media.AudioManager: int requestAudioFocus(android.media.AudioFocusRequest)>","<android.media.AudioAttributes$Builder: android.media.AudioAttributes build()>","<android.media.AudioFocusRequest$Builder: android.media.AudioFocusRequest build()>","<android.content.Intent: int getIntExtra(java.lang.String,int)>","<android.media.AudioFocusRequest$Builder: void <init>(int)>","<android.media.AudioAttributes$Builder: android.media.AudioAttributes$Builder setUsage(int)>","<android.media.AudioAttributes$Builder: void <init>()>","<android.speech.tts.TextToSpeech: void <init>(android.content.Context,android.speech.tts.TextToSpeech$OnInitListener)>","<android.media.AudioManager: void setMode(int)>","<android.media.AudioManager: int abandonAudioFocusRequest(android.media.AudioFocusRequest)>","<android.media.AudioManager: int abandonAudioFocus(android.media.AudioManager$OnAudioFocusChangeListener)>","<android.media.AudioAttributes$Builder: android.media.AudioAttributes$Builder setContentType(int)>","<android.media.AudioAttributes$Builder: android.media.AudioAttributes$Builder setFlags(int)>","<android.media.AudioFocusRequest$Builder: android.media.AudioFocusRequest$Builder setAudioAttributes(android.media.AudioAttributes)>","<android.media.AudioAttributes$Builder: android.media.AudioAttributes$Builder setLegacyStreamType(int)>","<android.media.AudioManager: int requestAudioFocus(android.media.AudioManager$OnAudioFocusChangeListener,int,int)>","<android.os.Build$VERSION: int SDK_INT>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main: void Locationbtn()>",
+			"call_APIs":["<android.content.Intent: android.content.Intent setData(android.net.Uri)>","<android.content.Intent: void <init>(java.lang.String)>","<android.net.Uri: android.net.Uri parse(java.lang.String)>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,int,int)>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>","<android.content.ContextWrapper: java.io.FileInputStream openFileInput(java.lang.String)>","<android.app.Activity: void startActivity(android.content.Intent)>","<android.widget.Toast: void show()>","<android.util.Log: int e(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.AppChooser$5: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>",
+			"call_APIs":["<android.app.Activity: void setResult(int,android.content.Intent)>","<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>","<android.content.Intent: void <init>()>","<android.app.Activity: void finish()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ConnectWidgetConfigureActivity$1: void onClick(android.view.View)>",
+			"call_APIs":["<android.appwidget.AppWidgetManager: android.appwidget.AppWidgetManager getInstance(android.content.Context)>","<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.app.Activity: void setResult(int,android.content.Intent)>","<android.content.Intent: void <init>()>","<android.content.Intent: android.content.Intent putExtra(java.lang.String,int)>","<android.app.Activity: void finish()>","<android.widget.EditText: android.text.Editable getText()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service: void dowifi(boolean)>",
+			"call_APIs":["<android.net.wifi.WifiManager: boolean setWifiEnabled(boolean)>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>","<android.widget.Toast: void show()>","<android.util.Log: int e(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ConnectWidgetConfigureActivity$2: void onClick(android.content.DialogInterface,int)>",
+			"call_APIs":["<android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)>","<android.content.SharedPreferences: android.content.SharedPreferences$Editor edit()>","<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>","<android.content.SharedPreferences$Editor: boolean commit()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData: boolean isExternalStorageAvail()>",
+			"call_APIs":["<android.os.Environment: java.lang.String getExternalStorageState()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ALauncher: void onCreate()>",
+			"call_APIs":["<android.app.Service: void stopSelf()>","<android.net.Uri: android.net.Uri parse(java.lang.String)>","<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>","<android.content.ContextWrapper: void startActivity(android.content.Intent)>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>","<android.content.ContextWrapper: java.io.FileInputStream openFileInput(java.lang.String)>","<android.content.Intent: android.content.Intent addFlags(int)>","<android.widget.Toast: void show()>","<android.app.Service: void onCreate()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.EditDevice: void setupActionBar()>",
+			"call_APIs":["<android.app.Activity: android.app.ActionBar getActionBar()>","<android.app.ActionBar: void setDisplayHomeAsUpEnabled(boolean)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.PackagesChooser: void onBackPressed()>",
+			"call_APIs":["<android.app.Activity: void onBackPressed()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.NotificationCatcher$1: void <init>(a2dp.Vol.NotificationCatcher)>",
+			"call_APIs":["<android.content.BroadcastReceiver: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData$2: void onClick(android.view.View)>",
+			"call_APIs":["<android.os.AsyncTask: android.os.AsyncTask execute(java.lang.Object[])>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,int,int)>","<android.widget.Toast: void show()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.MyApplication: void <init>()>",
+			"call_APIs":["<android.app.Application: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.Preferences: void <init>()>",
+			"call_APIs":["<android.preference.PreferenceActivity: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.DataXmlExporter: void <clinit>()>",
+			"call_APIs":["<android.os.Environment: java.io.File getExternalStorageDirectory()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.DeviceDB$OpenHelper: java.util.List GetColumns(android.database.sqlite.SQLiteDatabase)>",
+			"call_APIs":["<android.util.Log: int v(java.lang.String,java.lang.String,java.lang.Throwable)>","<android.database.Cursor: java.lang.String[] getColumnNames()>","<android.database.Cursor: void close()>","<android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.StoreLoc: int onStartCommand(android.content.Intent,int,int)>",
+			"call_APIs":["<android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)>","<android.app.Service: void stopSelf()>","<android.content.Intent: java.lang.String getStringExtra(java.lang.String)>","<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>","<android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)>","<android.os.Environment: java.io.File getExternalStorageDirectory()>","<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>","<android.os.CountDownTimer: android.os.CountDownTimer start()>","<android.widget.Toast: void show()>","<android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)>","<android.content.ContextWrapper: java.lang.Object getSystemService(java.lang.String)>","<android.app.Service: void startForeground(int,android.app.Notification)>","<android.content.ContextWrapper: java.io.File getFilesDir()>","<android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)>","<android.app.Service: int onStartCommand(android.content.Intent,int,int)>","<android.content.Context: java.lang.String getString(int)>","<android.util.Log: int e(java.lang.String,java.lang.String)>","<android.os.Build$VERSION: int SDK_INT>"],
+			"call_external_APIs":["<android.support.v4.app.NotificationManagerCompat: void cancelAll()>","<android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setProgress(int,int,boolean)>","<android.support.v4.app.NotificationCompat$Builder: android.app.Notification build()>","<android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setChannelId(java.lang.String)>","<android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setSmallIcon(int)>","<android.support.v4.app.NotificationManagerCompat: void notify(int,android.app.Notification)>","<android.support.v4.app.NotificationCompat$Builder: void <init>(android.content.Context,java.lang.String)>","<android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setContentTitle(java.lang.CharSequence)>","<android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setContentIntent(android.app.PendingIntent)>","<android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setCategory(java.lang.String)>","<android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setContentText(java.lang.CharSequence)>"],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.StoreLoc: void createNotificationChannel()>",
+			"call_APIs":["<android.app.NotificationManager: void createNotificationChannel(android.app.NotificationChannel)>","<android.content.Context: java.lang.Object getSystemService(java.lang.Class)>","<android.content.Context: java.lang.String getString(int)>","<android.app.NotificationChannel: void setDescription(java.lang.String)>","<android.os.Build$VERSION: int SDK_INT>","<android.app.NotificationChannel: void <init>(java.lang.String,java.lang.CharSequence,int)>"],
+			"call_external_APIs":["<android.support.v4.app.NotificationManagerCompat: android.support.v4.app.NotificationManagerCompat from(android.content.Context)>"],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service: void MusicCommand(int)>",
+			"call_APIs":["<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>","<android.content.Intent: void <init>(java.lang.String)>","<android.content.ContextWrapper: void sendBroadcast(android.content.Intent)>","<android.view.KeyEvent: void <init>(int,int)>","<android.media.AudioManager: void dispatchMediaKeyEvent(android.view.KeyEvent)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.PackagesChooser: void initAssignListenersAndAdapter()>",
+			"call_APIs":["<android.widget.ListView: void setAdapter(android.widget.ListAdapter)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$23: void onDone(java.lang.String)>",
+			"call_APIs":["<android.content.Intent: void <init>()>","<android.content.Intent: android.content.Intent setAction(java.lang.String)>","<android.content.ContextWrapper: void sendBroadcast(android.content.Intent)>","<android.media.AudioManager: void setMode(int)>","<android.media.AudioManager: int abandonAudioFocusRequest(android.media.AudioFocusRequest)>","<android.media.AudioManager: int abandonAudioFocus(android.media.AudioManager$OnAudioFocusChangeListener)>","<android.util.Log: int d(java.lang.String,java.lang.String)>","<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.os.Build$VERSION: int SDK_INT>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$12: void <init>(a2dp.Vol.service)>",
+			"call_APIs":["<android.content.BroadcastReceiver: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.Starter: void onReceive(android.content.Context,android.content.Intent)>",
+			"call_APIs":["<android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)>","<android.content.Context: android.content.ComponentName startForegroundService(android.content.Intent)>","<android.content.Context: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)>","<android.content.Context: android.content.ComponentName startService(android.content.Intent)>","<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>","<android.os.Build$VERSION: int SDK_INT>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ConnectWidgetConfigureActivity: void done()>",
+			"call_APIs":["<android.appwidget.AppWidgetManager: android.appwidget.AppWidgetManager getInstance(android.content.Context)>","<android.widget.RemoteViews: void setOnClickPendingIntent(int,android.app.PendingIntent)>","<android.content.Intent: void <init>()>","<android.app.PendingIntent: android.app.PendingIntent getService(android.content.Context,int,android.content.Intent,int)>","<android.app.Activity: void finish()>","<android.widget.RemoteViews: void setTextViewText(int,java.lang.CharSequence)>","<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>","<android.appwidget.AppWidgetManager: void updateAppWidget(int,android.widget.RemoteViews)>","<android.app.Activity: void setResult(int,android.content.Intent)>","<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.content.Intent: android.content.Intent putExtra(java.lang.String,int)>","<android.widget.RemoteViews: void <init>(java.lang.String,int)>","<android.content.Context: java.lang.String getPackageName()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<dalvik.system.DelegateLastClassLoader: void <init>(java.lang.String,java.lang.String,java.lang.ClassLoader)>",
+			"call_APIs":["<dalvik.system.PathClassLoader: void <init>(java.lang.String,java.lang.ClassLoader)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service: void getIBluetoothA2dp(android.content.Context)>",
+			"call_APIs":["<android.content.pm.PackageItemInfo: java.lang.String packageName>","<android.content.Intent: void <init>(java.lang.String)>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>","<android.content.Intent: android.content.Intent setPackage(java.lang.String)>","<android.content.Context: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>","<android.content.pm.PackageManager: android.content.pm.ResolveInfo resolveService(android.content.Intent,int)>","<android.content.pm.ResolveInfo: android.content.pm.ServiceInfo serviceInfo>","<android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()>","<android.widget.Toast: void show()>","<android.util.Log: int e(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.DeviceDB$OpenHelper: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)>",
+			"call_APIs":["<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>","<android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>","<android.database.sqlite.SQLiteOpenHelper: void onCreate(android.database.sqlite.SQLiteDatabase)>","<android.widget.Toast: void show()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.StoreLoc: void clearLoc()>",
+			"call_APIs":["<android.app.Service: void stopSelf()>","<android.location.Location: double getLatitude()>","<android.content.Intent: android.content.Intent setAction(java.lang.String)>","<android.content.ContextWrapper: java.io.FileOutputStream openFileOutput(java.lang.String,int)>","<android.location.Location: long getTime()>","<android.app.Service: void stopForeground(boolean)>","<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>","<android.text.format.DateUtils: java.lang.String formatDateTime(android.content.Context,long,int)>","<android.location.Location: java.lang.String getProvider()>","<android.widget.Toast: void show()>","<android.content.Intent: void <init>()>","<android.content.ContextWrapper: void sendBroadcast(android.content.Intent)>","<android.location.Location: boolean hasAccuracy()>","<android.location.Location: float getAccuracy()>","<android.location.Location: double getLongitude()>","<android.location.Location: double getAltitude()>","<android.location.LocationManager: void removeUpdates(android.location.LocationListener)>","<android.util.Log: int e(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":["<android.support.v4.content.ContextCompat: int checkSelfPermission(android.content.Context,java.lang.String)>","<android.support.v4.app.NotificationManagerCompat: void cancel(int)>"],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<org.json.JSONObject: void <clinit>()>",
+			"call_APIs":["<org.json.JSONObject: java.lang.Object NULL>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.EditDevice: void onSaveInstanceState(android.os.Bundle)>",
+			"call_APIs":["<android.os.BaseBundle: void putString(java.lang.String,java.lang.String)>","<android.app.Activity: void onSaveInstanceState(android.os.Bundle)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service: int onStartCommand(android.content.Intent,int,int)>",
+			"call_APIs":["<android.content.ContextWrapper: java.lang.Object getSystemService(java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.PackagesChooser: void cleanup()>",
+			"call_APIs":["<android.content.Intent: void <init>()>","<android.content.Intent: android.content.Intent setAction(java.lang.String)>","<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>","<android.content.ContextWrapper: void sendBroadcast(android.content.Intent)>","<android.content.SharedPreferences$Editor: void apply()>","<android.content.SharedPreferences: android.content.SharedPreferences$Editor edit()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service: void getOldPvol()>",
+			"call_APIs":["<android.content.SharedPreferences: android.content.SharedPreferences$Editor edit()>","<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>","<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.content.SharedPreferences$Editor: void apply()>","<android.media.AudioManager: int getStreamVolume(int)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.EditDevice$8$1: void onClick(android.content.DialogInterface,int)>",
+			"call_APIs":["<android.widget.TextView: void setText(java.lang.CharSequence)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.AppChooser$6: void run()>",
+			"call_APIs":["<android.content.ContextWrapper: android.content.Context getBaseContext()>","<android.content.pm.ApplicationInfo: java.lang.String className>","<android.content.pm.PackageItemInfo: java.lang.CharSequence loadLabel(android.content.pm.PackageManager)>","<android.content.pm.PackageItemInfo: java.lang.String packageName>","<android.os.Handler: boolean post(java.lang.Runnable)>","<android.content.pm.PackageManager: java.util.List getInstalledApplications(int)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$1: void <init>(a2dp.Vol.service)>",
+			"call_APIs":["<android.content.BroadcastReceiver: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.Connector: void updatenot()>",
+			"call_APIs":["<android.content.ContextWrapper: android.content.res.Resources getResources()>","<android.app.Service: void startForeground(int,android.app.Notification)>","<android.app.NotificationManager: void cancelAll()>","<android.os.Build$VERSION: int SDK_INT>","<android.content.res.Resources: java.lang.String getString(int)>"],
+			"call_external_APIs":["<android.support.v4.app.NotificationManagerCompat: void cancelAll()>","<android.support.v4.app.NotificationCompat$Builder: android.app.Notification build()>","<android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setChannelId(java.lang.String)>","<android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setSmallIcon(int)>","<android.support.v4.app.NotificationManagerCompat: void notify(int,android.app.Notification)>","<android.support.v4.app.NotificationCompat$Builder: void <init>(android.content.Context,java.lang.String)>","<android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setContentTitle(java.lang.CharSequence)>","<android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setPriority(int)>","<android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setCategory(java.lang.String)>","<android.support.v4.app.NotificationCompat$Builder: android.support.v4.app.NotificationCompat$Builder setContentText(java.lang.CharSequence)>"],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$10: void <init>(a2dp.Vol.service,long,long,int)>",
+			"call_APIs":["<android.os.CountDownTimer: void <init>(long,long)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.Connector$ConnectBt$1: void <init>(a2dp.Vol.Connector$ConnectBt,long,long)>",
+			"call_APIs":["<android.os.CountDownTimer: void <init>(long,long)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.CustomIntentMaker$2: void onClick(android.view.View)>",
+			"call_APIs":["<android.app.Activity: void finish()>","<android.app.Activity: void setResult(int)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.Connector: void onCreate()>",
+			"call_APIs":["<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>","<android.app.Service: android.app.Application getApplication()>","<android.content.IntentFilter: void <init>(java.lang.String)>"],
+			"call_external_APIs":["<android.support.v4.app.NotificationManagerCompat: android.support.v4.app.NotificationManagerCompat from(android.content.Context)>"],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ManageData$ExportDataAsXmlTask: java.lang.String doInBackground(java.lang.String[])>",
+			"call_APIs":["<android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main$7: boolean onLongClick(android.view.View)>",
+			"call_APIs":["<android.net.Uri: android.net.Uri parse(java.lang.String)>","<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,int,int)>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>","<android.content.ContextWrapper: java.io.FileInputStream openFileInput(java.lang.String)>","<android.app.Activity: void startActivity(android.content.Intent)>","<android.widget.Toast: void show()>","<android.util.Log: int e(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service: void TextReader(java.lang.String)>",
+			"call_APIs":["<android.media.AudioManager: int requestAudioFocus(android.media.AudioFocusRequest)>","<android.media.AudioAttributes$Builder: android.media.AudioAttributes build()>","<android.media.AudioFocusRequest$Builder: android.media.AudioFocusRequest build()>","<android.media.AudioFocusRequest$Builder: void <init>(int)>","<android.telephony.TelephonyManager: int getCallState()>","<android.media.AudioAttributes$Builder: android.media.AudioAttributes$Builder setUsage(int)>","<android.media.AudioAttributes$Builder: android.media.AudioAttributes$Builder setFlags(int)>","<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>","<android.media.AudioFocusRequest$Builder: android.media.AudioFocusRequest$Builder setAudioAttributes(android.media.AudioAttributes)>","<android.media.AudioAttributes$Builder: android.media.AudioAttributes$Builder setLegacyStreamType(int)>","<android.media.AudioManager: void setSpeakerphoneOn(boolean)>","<android.os.CountDownTimer: android.os.CountDownTimer start()>","<android.media.AudioManager: int requestAudioFocus(android.media.AudioManager$OnAudioFocusChangeListener,int,int)>","<android.media.AudioManager: boolean isBluetoothScoAvailableOffCall()>","<android.os.BaseBundle: void putInt(java.lang.String,int)>","<android.widget.Toast: void show()>","<android.os.Bundle: void <init>()>","<android.media.AudioManager: void startBluetoothSco()>","<android.media.AudioAttributes$Builder: void <init>()>","<android.media.AudioAttributes$Builder: android.media.AudioAttributes$Builder setContentType(int)>","<android.media.AudioManager: boolean isMusicActive()>","<android.os.Build$VERSION: int SDK_INT>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.AppChooser: void onConfigurationChanged(android.content.res.Configuration)>",
+			"call_APIs":["<android.app.Activity: void onConfigurationChanged(android.content.res.Configuration)>","<android.app.Activity: void setContentView(int)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.LocViewer$1: void onClick(android.view.View)>",
+			"call_APIs":["<android.content.Intent: android.content.Intent setData(android.net.Uri)>","<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>","<android.content.Intent: void <init>()>","<android.content.Intent: android.content.Intent setAction(java.lang.String)>","<android.content.Intent: android.content.Intent putExtra(java.lang.String,int)>","<android.content.ContextWrapper: void sendBroadcast(android.content.Intent)>","<android.content.Intent$ShortcutIconResource: android.content.Intent$ShortcutIconResource fromContext(android.content.Context,int)>","<android.net.Uri: android.net.Uri normalizeScheme()>","<android.content.Intent: android.content.Intent putExtra(java.lang.String,android.os.Parcelable)>","<android.content.Intent: android.content.Intent putExtra(java.lang.String,boolean)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.DeviceDB: void delete(a2dp.Vol.btDevice)>",
+			"call_APIs":["<android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.AppChooser$PackageListAdapter: void <init>(a2dp.Vol.AppChooser,android.content.Context)>",
+			"call_APIs":["<android.widget.ArrayAdapter: void <init>(android.content.Context,int,java.util.List)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.DeviceDB: void deleteAll()>",
+			"call_APIs":["<android.database.sqlite.SQLiteDatabase: int delete(java.lang.String,java.lang.String,java.lang.String[])>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.Connector: void getIBluetoothA2dp(android.content.Context)>",
+			"call_APIs":["<android.content.Intent: void <init>(java.lang.String)>","<android.content.Intent: android.content.Intent setPackage(java.lang.String)>","<android.content.Context: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>","<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.content.pm.PackageItemInfo: java.lang.String packageName>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>","<android.content.pm.PackageManager: android.content.pm.ResolveInfo resolveService(android.content.Intent,int)>","<android.content.pm.ResolveInfo: android.content.pm.ServiceInfo serviceInfo>","<android.content.ContextWrapper: android.content.pm.PackageManager getPackageManager()>","<android.widget.Toast: void show()>","<android.util.Log: int e(java.lang.String,java.lang.String)>","<android.content.Context: java.lang.String getPackageCodePath()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$13: void <init>(a2dp.Vol.service)>",
+			"call_APIs":["<android.content.BroadcastReceiver: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.Connector: int onStartCommand(android.content.Intent,int,int)>",
+			"call_APIs":["<android.content.ContextWrapper: android.content.SharedPreferences getSharedPreferences(java.lang.String,int)>","<android.bluetooth.BluetoothAdapter: android.bluetooth.BluetoothAdapter getDefaultAdapter()>","<android.content.Intent: void <init>(java.lang.String)>","<android.content.SharedPreferences: java.lang.String getString(java.lang.String,java.lang.String)>","<android.util.Log: int i(java.lang.String,java.lang.String)>","<android.bluetooth.BluetoothAdapter: boolean isEnabled()>","<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>","<android.bluetooth.BluetoothDevice: java.lang.String getAddress()>","<android.content.ContextWrapper: android.content.Context getApplicationContext()>","<android.content.Intent: android.content.Intent addFlags(int)>","<android.widget.Toast: void show()>","<android.os.BaseBundle: int getInt(java.lang.String,int)>","<android.bluetooth.BluetoothAdapter: java.util.Set getBondedDevices()>","<android.content.Context: void startActivity(android.content.Intent)>","<android.content.Intent: android.os.Bundle getExtras()>","<android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>","<android.content.Context: java.lang.String getString(int)>","<android.content.IntentFilter: void <init>(java.lang.String)>","<android.util.Log: int e(java.lang.String,java.lang.String)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$2: void <init>(a2dp.Vol.service)>",
+			"call_APIs":["<android.content.BroadcastReceiver: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<org.apache.http.conn.ssl.AllowAllHostnameVerifier: void <init>()>",
+			"call_APIs":["<org.apache.http.conn.ssl.AbstractVerifier: void <init>()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.EditDevice$5: void onClick(android.view.View)>",
+			"call_APIs":["<android.app.Activity: void finish()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.EditDevice: void closedb()>",
+			"call_APIs":["<android.database.sqlite.SQLiteClosable: void close()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.PackagesChooser$PackageListAdapter$1: void onCheckedChanged(android.widget.CompoundButton,boolean)>",
+			"call_APIs":["<android.widget.CompoundButton: boolean isChecked()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.AppChooser: void initAssignListenersAndAdapter()>",
+			"call_APIs":["<android.widget.AdapterView: void setOnItemClickListener(android.widget.AdapterView$OnItemClickListener)>","<android.widget.TextView: void setText(java.lang.CharSequence)>","<android.view.View: void setOnClickListener(android.view.View$OnClickListener)>","<android.view.View: void setOnKeyListener(android.view.View$OnKeyListener)>","<android.widget.TextView: void setOnEditorActionListener(android.widget.TextView$OnEditorActionListener)>","<android.widget.ListView: void setAdapter(android.widget.ListAdapter)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.main: boolean onCreateOptionsMenu(android.view.Menu)>",
+			"call_APIs":["<android.view.MenuInflater: void inflate(int,android.view.Menu)>","<android.app.Activity: android.view.MenuInflater getMenuInflater()>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.PackagesChooser$2: void run()>",
+			"call_APIs":["<android.view.View: void setVisibility(int)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.service$16: void <init>(a2dp.Vol.service,long,long,java.lang.String)>",
+			"call_APIs":["<android.os.CountDownTimer: void <init>(long,long)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		},
+		{
+			"method":"<a2dp.Vol.ConnectWidgetConfigureActivity: void onCreate(android.os.Bundle)>",
+			"call_APIs":["<android.app.Activity: android.app.Application getApplication()>","<android.view.View: void setOnClickListener(android.view.View$OnClickListener)>","<android.widget.TextView: void setText(java.lang.CharSequence)>","<android.content.Intent: android.os.Bundle getExtras()>","<android.app.Activity: void onCreate(android.os.Bundle)>","<android.app.Activity: android.content.Intent getIntent()>","<android.os.BaseBundle: int getInt(java.lang.String,int)>","<android.app.Activity: void finish()>","<android.app.Activity: void setResult(int)>","<android.app.Activity: void setContentView(int)>","<android.app.Activity: android.view.View findViewById(int)>"],
+			"call_external_APIs":[],
+			"call_reflect_APIs":[]
+		}
+	]
+}
