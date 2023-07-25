@@ -53,7 +53,6 @@
 /home/shared-resources/apks/fdroid_20230526/io.github.tjg1.nori_15.apk
 /home/shared-resources/apks/fdroid_20230526/click.dummer.rickapp_20.apk
 /home/shared-resources/apks/fdroid_20230526/de.viatorus.neo2externalkeyboard_1.apk
-/home/shared-resources/apks/fdroid_20230526/it.greenaddress.cordova_72.apk
 /home/shared-resources/apks/fdroid_20230526/fr.neamar.kiss_206.apk
 /home/shared-resources/apks/fdroid_20230526/info.lamatricexiste.network_43.apk
 /home/shared-resources/apks/fdroid_20230526/de.jepfa.yapm_108000.apk
@@ -122,7 +121,6 @@
 /home/shared-resources/apks/fdroid_20230526/com.zachrattner.pockettalk_7.apk
 /home/shared-resources/apks/fdroid_20230526/com.rtbishop.look4sat_313.apk
 /home/shared-resources/apks/fdroid_20230526/eu.auct.twitter2nitter_6.apk
-/home/shared-resources/apks/fdroid_20230526/com.daemon.ssh_23.apk
 /home/shared-resources/apks/fdroid_20230526/org.anothermonitor_10.apk
 /home/shared-resources/apks/fdroid_20230526/dasher.android_9.apk
 /home/shared-resources/apks/fdroid_20230526/com.heb12.heb12_2.apk
@@ -238,8 +236,6 @@
 /home/shared-resources/apks/fdroid_20230526/com.atelieryl.wonderdroid_51.apk
 /home/shared-resources/apks/fdroid_20230526/org.stypox.tridenta_30.apk
 /home/shared-resources/apks/fdroid_20230526/com.concentricsky.android.khan_14.apk
-/home/shared-resources/apks/fdroid_20230526/com.jbirdvegas.mgerrit_2111084.apk
-/home/shared-resources/apks/fdroid_20230526/it.niedermann.nextcloud.deck_1023002.apk
 /home/shared-resources/apks/fdroid_20230526/com.wbrenna.gtfsoffline_10.apk
 /home/shared-resources/apks/fdroid_20230526/net.moasdawiki.app_36.apk
 /home/shared-resources/apks/fdroid_20230526/de.mangelow.throughput_15.apk
@@ -435,7 +431,6 @@
 /home/shared-resources/apks/fdroid_20230526/de.cryptobitch.muelli.barcodegen_2.apk
 /home/shared-resources/apks/fdroid_20230526/com.alxgnon.postwriter_2.apk
 /home/shared-resources/apks/fdroid_20230526/kvj.taskw_3.apk
-/home/shared-resources/apks/fdroid_20230526/uobikiemukot.yaft_4.apk
 /home/shared-resources/apks/fdroid_20230526/com.github.ktsr42.rsyncserver_2.apk
 /home/shared-resources/apks/fdroid_20230526/fr.odrevet.bide_et_musique_52.apk
 /home/shared-resources/apks/fdroid_20230526/com.simonramstedt.yoke_4.apk
@@ -516,7 +511,6 @@
 /home/shared-resources/apks/fdroid_20230526/org.transdroid.lite_239.apk
 /home/shared-resources/apks/fdroid_20230526/io.mrarm.irc_13.apk
 /home/shared-resources/apks/fdroid_20230526/com.jiaqifeng.hacki_1103.apk
-/home/shared-resources/apks/fdroid_20230526/com.jvillalba.apod.classic_11.apk
 /home/shared-resources/apks/fdroid_20230526/in.andres.kandroid_19.apk
 /home/shared-resources/apks/fdroid_20230526/com.mykola.lexinproject_6.apk
 /home/shared-resources/apks/fdroid_20230526/com.volosyukivan_30.apk
@@ -533,7 +527,6 @@
 /home/shared-resources/apks/fdroid_20230526/org.mustard.android_150.apk
 /home/shared-resources/apks/fdroid_20230526/org.jfedor.frozenbubble_54.apk
 /home/shared-resources/apks/fdroid_20230526/com.Bisha.TI89EmuDonation_1133.apk
-/home/shared-resources/apks/fdroid_20230526/com.maskyn.fileeditorpro_47.apk
 /home/shared-resources/apks/fdroid_20230526/com.dosse.bwentrain.androidPlayer_26.apk
 /home/shared-resources/apks/fdroid_20230526/org.sufficientlysecure.termbot_10905217.apk
 /home/shared-resources/apks/fdroid_20230526/net.nitratine.priceperunit_18.apk
@@ -556,7 +549,6 @@
 /home/shared-resources/apks/fdroid_20230526/im.r_c.android.jigsaw_2.apk
 /home/shared-resources/apks/fdroid_20230526/me.echeung.moemoekyun.fdroid_106.apk
 /home/shared-resources/apks/fdroid_20230526/x1125io.initdlight_2.apk
-/home/shared-resources/apks/fdroid_20230526/com.achep.acdisplay_76.apk
 /home/shared-resources/apks/fdroid_20230526/com.kaliturin.blacklist_18.apk
 /home/shared-resources/apks/fdroid_20230526/com.radiostudent.radiostudentstream_2.apk
 /home/shared-resources/apks/fdroid_20230526/org.yabause.android_1.apk
@@ -588,7 +580,6 @@
 /home/shared-resources/apks/fdroid_20230526/com.proch.practicehub_2.apk
 /home/shared-resources/apks/fdroid_20230526/com.purplefoto.pfdock_3.apk
 /home/shared-resources/apks/fdroid_20230526/ru.exlmoto.snood21_3.apk
-/home/shared-resources/apks/fdroid_20230526/com.xabber.android.classic_106.apk
 /home/shared-resources/apks/fdroid_20230526/org.projectmaxs.module.filewrite_2000504877.apk
 /home/shared-resources/apks/fdroid_20230526/ch.deletescape.lawnchair.plah_2001.apk
 /home/shared-resources/apks/fdroid_20230526/eu.veldsoft.vitosha.poker.odds_2.apk
@@ -844,7 +835,6 @@
 /home/shared-resources/apks/fdroid_20230526/org.ligi.materialteatimer_14.apk
 /home/shared-resources/apks/fdroid_20230526/tw.com.daxia.virtualsoftkeys_10.apk
 /home/shared-resources/apks/fdroid_20230526/com.u2fa.secur_5.apk
-/home/shared-resources/apks/fdroid_20230526/com.apk.editor_25.apk
 /home/shared-resources/apks/fdroid_20230526/com.emmanuelmess.simplecleanup_4.apk
 /home/shared-resources/apks/fdroid_20230526/com.github.cetoolbox_13.apk
 /home/shared-resources/apks/fdroid_20230526/edu.rit.csh.devin_5.apk
@@ -883,7 +873,6 @@
 /home/shared-resources/apks/fdroid_20230526/org.liberty.android.freeotpplus_21.apk
 /home/shared-resources/apks/fdroid_20230526/org.jmoyer.NotificationPlus_2.apk
 /home/shared-resources/apks/fdroid_20230526/org.ttrssreader_1971.apk
-/home/shared-resources/apks/fdroid_20230526/com.standardnotes_3000965.apk
 /home/shared-resources/apks/fdroid_20230526/org.stypox.dicio_9.apk
 /home/shared-resources/apks/fdroid_20230526/io.gitlab.listentogether_6.apk
 /home/shared-resources/apks/fdroid_20230526/com.cweb.messenger_42038.apk
@@ -947,7 +936,6 @@
 /home/shared-resources/apks/fdroid_20230526/com.pixiv.muzei.pixivsource_30000.apk
 /home/shared-resources/apks/fdroid_20230526/dev.leonlatsch.photok_25.apk
 /home/shared-resources/apks/fdroid_20230526/com.thatsmanmeet.taskyapp_16.apk
-/home/shared-resources/apks/fdroid_20230526/org.atalk.android_301070.apk
 /home/shared-resources/apks/fdroid_20230526/org.xposeddownloader_12.apk
 /home/shared-resources/apks/fdroid_20230526/com.joshuacerdenia.android.nicefeed_18.apk
 /home/shared-resources/apks/fdroid_20230526/com.phikal.regex_5.apk
@@ -965,7 +953,6 @@
 /home/shared-resources/apks/fdroid_20230526/de.onyxbits.drudgery_4.apk
 /home/shared-resources/apks/fdroid_20230526/com.saiga.find.messagefinder_16.apk
 /home/shared-resources/apks/fdroid_20230526/com.corphish.nightlight.generic_66.apk
-/home/shared-resources/apks/fdroid_20230526/com.nolanlawson.apptracker_10.apk
 /home/shared-resources/apks/fdroid_20230526/click.dummer.funphonepuppet_12.apk
 /home/shared-resources/apks/fdroid_20230526/ir.hsn6.defendo_8.apk
 /home/shared-resources/apks/fdroid_20230526/org.disrupted.rumble_16.apk
@@ -1192,7 +1179,6 @@
 /home/shared-resources/apks/fdroid_20230526/au.com.wallaceit.reddinator_68.apk
 /home/shared-resources/apks/fdroid_20230526/at.dasz.KolabDroid_95.apk
 /home/shared-resources/apks/fdroid_20230526/org.schabi.stethox_2.apk
-/home/shared-resources/apks/fdroid_20230526/net.szym.barnacle_39.apk
 /home/shared-resources/apks/fdroid_20230526/free.rm.netcfgwidget_1.apk
 /home/shared-resources/apks/fdroid_20230526/de.nproth.pin_17.apk
 /home/shared-resources/apks/fdroid_20230526/com.saverio.wordoftheday_en_15.apk
@@ -1352,7 +1338,6 @@
 /home/shared-resources/apks/fdroid_20230526/cloud.valetudo.companion_12.apk
 /home/shared-resources/apks/fdroid_20230526/com.github.bmx666.appcachecleaner_44.apk
 /home/shared-resources/apks/fdroid_20230526/org.billthefarmer.print_107.apk
-/home/shared-resources/apks/fdroid_20230526/org.smssecure.smssecure_211.apk
 /home/shared-resources/apks/fdroid_20230526/com.sadellie.unitto_20.apk
 /home/shared-resources/apks/fdroid_20230526/org.macno.puma_18.apk
 /home/shared-resources/apks/fdroid_20230526/org.studip.unofficial_app_16.apk
@@ -1371,7 +1356,6 @@
 /home/shared-resources/apks/fdroid_20230526/hans.b.skewy1_0_1.apk
 /home/shared-resources/apks/fdroid_20230526/com.cheogram.android_42039.apk
 /home/shared-resources/apks/fdroid_20230526/peanutencryption.peanutencryption_4.apk
-/home/shared-resources/apks/fdroid_20230526/com.xda.theme.cyanogenmod_4.apk
 /home/shared-resources/apks/fdroid_20230526/org.mosad.teapod_100991.apk
 /home/shared-resources/apks/fdroid_20230526/su.sadrobot.yashlang_20.apk
 /home/shared-resources/apks/fdroid_20230526/com.simplemobiletools.draw.pro_78.apk
@@ -1537,7 +1521,6 @@
 /home/shared-resources/apks/fdroid_20230526/rino.org.tethercompanion_2.apk
 /home/shared-resources/apks/fdroid_20230526/com.aistra.hail_26.apk
 /home/shared-resources/apks/fdroid_20230526/space.neothefox.laytray_10.apk
-/home/shared-resources/apks/fdroid_20230526/it.skarafaz.mercury_9.apk
 /home/shared-resources/apks/fdroid_20230526/org.balau.fakedawn_4.apk
 /home/shared-resources/apks/fdroid_20230526/com.thirtydegreesray.openhub_34.apk
 /home/shared-resources/apks/fdroid_20230526/de.micmun.android.nextcloudcookbook_300.apk
@@ -1659,7 +1642,6 @@
 /home/shared-resources/apks/fdroid_20230526/org.gitorious.jamesjrh.isokeys_14.apk
 /home/shared-resources/apks/fdroid_20230526/com.chooloo.www.koler_79.apk
 /home/shared-resources/apks/fdroid_20230526/io.davidar.fabularium_26.apk
-/home/shared-resources/apks/fdroid_20230526/com.java.SmokeReducer_1.apk
 /home/shared-resources/apks/fdroid_20230526/com.thibaudperso.sonycamera_24.apk
 /home/shared-resources/apks/fdroid_20230526/app.olaunchercf_34.apk
 /home/shared-resources/apks/fdroid_20230526/org.esteban.piano_6.apk
@@ -1697,7 +1679,6 @@
 /home/shared-resources/apks/fdroid_20230526/com.example.regis_cat_1.apk
 /home/shared-resources/apks/fdroid_20230526/de.kaffeemitkoffein.imagepipe_45.apk
 /home/shared-resources/apks/fdroid_20230526/com.sgr_b2.compass_10405.apk
-/home/shared-resources/apks/fdroid_20230526/org.zamedev.gloomydungeons2.opensource_1602221800.apk
 /home/shared-resources/apks/fdroid_20230526/com.tomer.draw_100.apk
 /home/shared-resources/apks/fdroid_20230526/de.nellessen.usercontrolleddecryptionoperations_6.apk
 /home/shared-resources/apks/fdroid_20230526/org.pyneo.maps_10010.apk
@@ -1768,7 +1749,6 @@
 /home/shared-resources/apks/fdroid_20230526/fi.harism.wallpaper.flier_18.apk
 /home/shared-resources/apks/fdroid_20230526/net.etuldan.sparss.floss_75.apk
 /home/shared-resources/apks/fdroid_20230526/be.brunoparmentier.dnssetter_3.apk
-/home/shared-resources/apks/fdroid_20230526/com.jelly.theme.revenge_11.apk
 /home/shared-resources/apks/fdroid_20230526/com.googlecode.openwnn.legacy_133.apk
 /home/shared-resources/apks/fdroid_20230526/com.ultramegatech.ey_36.apk
 /home/shared-resources/apks/fdroid_20230526/org.herrlado.ask.languagepack.czech_2234.apk
@@ -1860,7 +1840,6 @@
 /home/shared-resources/apks/fdroid_20230526/com.anysoftkeyboard.languagepack.latvian_2908.apk
 /home/shared-resources/apks/fdroid_20230526/com.dozingcatsoftware.mouse_pounce_7.apk
 /home/shared-resources/apks/fdroid_20230526/xyz.deepdaikon.quinb_8.apk
-/home/shared-resources/apks/fdroid_20230526/com.totsp.crossword.shortyz_40403.apk
 /home/shared-resources/apks/fdroid_20230526/com.umang.dashnotifier_18.apk
 /home/shared-resources/apks/fdroid_20230526/com.jerboa_30.apk
 /home/shared-resources/apks/fdroid_20230526/io.github.martinschneider.juvavum_13.apk
@@ -1902,7 +1881,6 @@
 /home/shared-resources/apks/fdroid_20230526/com.drismo_17.apk
 /home/shared-resources/apks/fdroid_20230526/com.xlythe.minecraftclock_5.apk
 /home/shared-resources/apks/fdroid_20230526/fr.corenting.convertisseureurofranc_23.apk
-/home/shared-resources/apks/fdroid_20230526/com.miloshpetrov.sol2.android_14.apk
 /home/shared-resources/apks/fdroid_20230526/com.juet.attendance_6.apk
 /home/shared-resources/apks/fdroid_20230526/com.urbandroid.dontkillmyapp_20.apk
 /home/shared-resources/apks/fdroid_20230526/com.tjm.crushr_3.apk
@@ -1927,7 +1905,6 @@
 /home/shared-resources/apks/fdroid_20230526/com.amaze.filemanager_117.apk
 /home/shared-resources/apks/fdroid_20230526/com.gracecode.android.presentation_20131114.apk
 /home/shared-resources/apks/fdroid_20230526/ru.gelin.android.weather.notification.skin.blacktextplus_18.apk
-/home/shared-resources/apks/fdroid_20230526/com.googamaphone.typeandspeak_36.apk
 /home/shared-resources/apks/fdroid_20230526/me.blog.korn123.easydiary_297.apk
 /home/shared-resources/apks/fdroid_20230526/com.yogeshpaliyal.keypass_1414.apk
 /home/shared-resources/apks/fdroid_20230526/org.kristbaum.como_19.apk
@@ -2110,7 +2087,6 @@
 /home/shared-resources/apks/fdroid_20230526/com.jaygoel.virginminuteschecker_13.apk
 /home/shared-resources/apks/fdroid_20230526/com.tioui.opensound_5.apk
 /home/shared-resources/apks/fdroid_20230526/com.mareksebera.simpledilbert_40.apk
-/home/shared-resources/apks/fdroid_20230526/be.brunoparmentier.apkshare_1.apk
 /home/shared-resources/apks/fdroid_20230526/net.taler.merchantpos_5.apk
 /home/shared-resources/apks/fdroid_20230526/net.turtton.ytalarm_104.apk
 /home/shared-resources/apks/fdroid_20230526/one.librem.chat_1000399.apk
@@ -2138,7 +2114,6 @@
 /home/shared-resources/apks/fdroid_20230526/com.jadn.cc_173.apk
 /home/shared-resources/apks/fdroid_20230526/org.basic.lg_3.apk
 /home/shared-resources/apks/fdroid_20230526/com.poupa.attestationdeplacement_28.apk
-/home/shared-resources/apks/fdroid_20230526/com.gitea.theoden8.sudaku_8.apk
 /home/shared-resources/apks/fdroid_20230526/com.abhinavmarwaha.lifehq_9.apk
 /home/shared-resources/apks/fdroid_20230526/ru0xdc.rtkgps_1.apk
 /home/shared-resources/apks/fdroid_20230526/com.vonglasow.michael.qz_20200.apk
@@ -2369,7 +2344,6 @@
 /home/shared-resources/apks/fdroid_20230526/net.mypapit.mobile.myposition_18.apk
 /home/shared-resources/apks/fdroid_20230526/org.nutritionfacts.dailydozen_83.apk
 /home/shared-resources/apks/fdroid_20230526/org.yaxim.androidclient_53.apk
-/home/shared-resources/apks/fdroid_20230526/de.yaacc_40001.apk
 /home/shared-resources/apks/fdroid_20230526/net.blumia.pineapple.lockscreen.oss_7.apk
 /home/shared-resources/apks/fdroid_20230526/de.arnowelzel.android.periodical_93.apk
 /home/shared-resources/apks/fdroid_20230526/com.martinborjesson.o2xtouchlednotifications_81.apk
@@ -2486,7 +2460,6 @@
 /home/shared-resources/apks/fdroid_20230526/com.sirekanyan.knigopis_33.apk
 /home/shared-resources/apks/fdroid_20230526/com.elsdoerfer.android.autostarts_33.apk
 /home/shared-resources/apks/fdroid_20230526/com.powerje.nyan_15.apk
-/home/shared-resources/apks/fdroid_20230526/org.domogik.domodroid13_33.apk
 /home/shared-resources/apks/fdroid_20230526/jpf.android.diary_1.apk
 /home/shared-resources/apks/fdroid_20230526/org.secuso.privacyfriendlypaindiary_4.apk
 /home/shared-resources/apks/fdroid_20230526/org.scoutant.rpn_4.apk
@@ -2644,7 +2617,6 @@
 /home/shared-resources/apks/fdroid_20230526/de.yazo_games.mensaguthaben_15.apk
 /home/shared-resources/apks/fdroid_20230526/org.droidparts.battery_widget_201205220.apk
 /home/shared-resources/apks/fdroid_20230526/com.team242.robozzle_60.apk
-/home/shared-resources/apks/fdroid_20230526/com.github.ympavlov.minidoro_112.apk
 /home/shared-resources/apks/fdroid_20230526/com.github.axet.callrecorder_225.apk
 /home/shared-resources/apks/fdroid_20230526/com.bri1.soundbored2_6.apk
 /home/shared-resources/apks/fdroid_20230526/hashengineering.groestlcoin.wallet_test_90301.apk
@@ -2721,7 +2693,6 @@
 /home/shared-resources/apks/fdroid_20230526/net.justdave.nwsweatheralertswidget_12.apk
 /home/shared-resources/apks/fdroid_20230526/kaljurand_at_gmail_dot_com.diktofon_983.apk
 /home/shared-resources/apks/fdroid_20230526/ru.meefik.busybox_51.apk
-/home/shared-resources/apks/fdroid_20230526/com.best.deskclock_3.apk
 /home/shared-resources/apks/fdroid_20230526/com.github.alijc.cricketsalarm_2.apk
 /home/shared-resources/apks/fdroid_20230526/net.bierbaumer.otp_authenticator_3.apk
 /home/shared-resources/apks/fdroid_20230526/info.metadude.android.congress.schedule_89.apk
@@ -2820,7 +2791,6 @@
 /home/shared-resources/apks/fdroid_20230526/ru.henridellal.fsassist_5.apk
 /home/shared-resources/apks/fdroid_20230526/com.alaory.wallmewallpaper_27.apk
 /home/shared-resources/apks/fdroid_20230526/com.thermatk.android.xf.fakegapps_3.apk
-/home/shared-resources/apks/fdroid_20230526/network.loki.messenger.fdroid_3355.apk
 /home/shared-resources/apks/fdroid_20230526/com.jakewharton.sdksearch_1040100.apk
 /home/shared-resources/apks/fdroid_20230526/net.guildem.publicip_5.apk
 /home/shared-resources/apks/fdroid_20230526/com.katiearose.sobriety_22.apk
@@ -2947,7 +2917,6 @@
 /home/shared-resources/apks/fdroid_20230526/info.schnatterer.nusic_24.apk
 /home/shared-resources/apks/fdroid_20230526/com.github.characterdog.share_my_number_3.apk
 /home/shared-resources/apks/fdroid_20230526/com.iakmds.librecamera_133.apk
-/home/shared-resources/apks/fdroid_20230526/com.episode6.android.appalarm.pro_31.apk
 /home/shared-resources/apks/fdroid_20230526/pk.contender.earmouse_30.apk
 /home/shared-resources/apks/fdroid_20230526/net.tevp.postcode_5.apk
 /home/shared-resources/apks/fdroid_20230526/de.k4ever.k4android_10.apk
@@ -3042,7 +3011,6 @@
 /home/shared-resources/apks/fdroid_20230526/bluepie.ad_silence_42.apk
 /home/shared-resources/apks/fdroid_20230526/om.sstvencoder_29.apk
 /home/shared-resources/apks/fdroid_20230526/com.jarsilio.android.waveup_119.apk
-/home/shared-resources/apks/fdroid_20230526/org.ironrabbit_6.apk
 /home/shared-resources/apks/fdroid_20230526/com.cookiegames.smartcookie_152.apk
 /home/shared-resources/apks/fdroid_20230526/org.happypeng.sumatora.android.sumatoradictionary_31.apk
 /home/shared-resources/apks/fdroid_20230526/io.github.chiver_211.apk
@@ -3177,7 +3145,6 @@
 /home/shared-resources/apks/fdroid_20230526/com.nolanlawson.jnameconverter_1.apk
 /home/shared-resources/apks/fdroid_20230526/org.projectmaxs.module.locationfine_2000504877.apk
 /home/shared-resources/apks/fdroid_20230526/com.wrmndfzzy.atomize_1.apk
-/home/shared-resources/apks/fdroid_20230526/axp.tool.apkextractor_5.apk
 /home/shared-resources/apks/fdroid_20230526/com.zola.bmi_402.apk
 /home/shared-resources/apks/fdroid_20230526/eu.flatworld.android.slider_20301.apk
 /home/shared-resources/apks/fdroid_20230526/de.eidottermihi.raspicheck_57.apk
@@ -3206,7 +3173,6 @@
 /home/shared-resources/apks/fdroid_20230526/com.github.axet.binauralbeats_160.apk
 /home/shared-resources/apks/fdroid_20230526/se.manyver_145.apk
 /home/shared-resources/apks/fdroid_20230526/org.runnerup.free_15000327.apk
-/home/shared-resources/apks/fdroid_20230526/de.wuapps.moredays_17.apk
 /home/shared-resources/apks/fdroid_20230526/bus.chio.wishmaster_1003.apk
 /home/shared-resources/apks/fdroid_20230526/dev.obfusk.jiten_1010100002.apk
 /home/shared-resources/apks/fdroid_20230526/com.spydiko.rotationmanager_foss_18.apk
@@ -3228,7 +3194,6 @@
 /home/shared-resources/apks/fdroid_20230526/ua.com.radiokot.photoprism_14.apk
 /home/shared-resources/apks/fdroid_20230526/ch.admin.bag.covidcertificate.wallet_4100000.apk
 /home/shared-resources/apks/fdroid_20230526/cz.jiriskorpil.amixerwebui_8.apk
-/home/shared-resources/apks/fdroid_20230526/it.niedermann.owncloud.notes_40000090.apk
 /home/shared-resources/apks/fdroid_20230526/com.anpmech.launcher_10202.apk
 /home/shared-resources/apks/fdroid_20230526/com.github.whyrising.flashyalarm_10000.apk
 /home/shared-resources/apks/fdroid_20230526/de.retujo.bierverkostung_4.apk
@@ -3406,7 +3371,6 @@
 /home/shared-resources/apks/fdroid_20230526/de.dennisguse.opentracks_5211.apk
 /home/shared-resources/apks/fdroid_20230526/org.cuberite.android_12.apk
 /home/shared-resources/apks/fdroid_20230526/org.courville.nova_601006.apk
-/home/shared-resources/apks/fdroid_20230526/com.androidemu.nes_61.apk
 /home/shared-resources/apks/fdroid_20230526/io.tiph.smsspammer_2.apk
 /home/shared-resources/apks/fdroid_20230526/org.openbmap_27.apk
 /home/shared-resources/apks/fdroid_20230526/net.sf.times_37.apk
@@ -3570,7 +3534,6 @@
 /home/shared-resources/apks/fdroid_20230526/org.developfreedom.ccdroid.app_2.apk
 /home/shared-resources/apks/fdroid_20230526/in.ac.iitb.cse.cartsbusboarding_15.apk
 /home/shared-resources/apks/fdroid_20230526/org.pacien.tincapp_37.apk
-/home/shared-resources/apks/fdroid_20230526/org.adw.launcher_34.apk
 /home/shared-resources/apks/fdroid_20230526/dev.lucanlm.antimine_1702031.apk
 /home/shared-resources/apks/fdroid_20230526/com.dynamite.heaterrc_16.apk
 /home/shared-resources/apks/fdroid_20230526/org.projectmaxs.module.shell_2000504877.apk
@@ -3592,7 +3555,6 @@
 /home/shared-resources/apks/fdroid_20230526/io.va.exposed_202.apk
 /home/shared-resources/apks/fdroid_20230526/com.tomer.alwayson_213.apk
 /home/shared-resources/apks/fdroid_20230526/be.knars.netflixtoimdb_6.apk
-/home/shared-resources/apks/fdroid_20230526/taco.apkmirror_11.apk
 /home/shared-resources/apks/fdroid_20230526/eu.bauerj.paperless_app_14.apk
 /home/shared-resources/apks/fdroid_20230526/io.gitlab.danielrparks.vibrato_3.apk
 /home/shared-resources/apks/fdroid_20230526/com.lindevhard.android.raspfinder_3.apk
@@ -3637,7 +3599,6 @@
 /home/shared-resources/apks/fdroid_20230526/io.neurolab_1.apk
 /home/shared-resources/apks/fdroid_20230526/com.dozingcatsoftware.kumquats_3.apk
 /home/shared-resources/apks/fdroid_20230526/com.github.cvzi.screenshottile_98.apk
-/home/shared-resources/apks/fdroid_20230526/com.mirfatif.permissionmanagerx_112.apk
 /home/shared-resources/apks/fdroid_20230526/protect.babymonitor_3.apk
 /home/shared-resources/apks/fdroid_20230526/com.wbrawner.simplemarkdown.free_34.apk
 /home/shared-resources/apks/fdroid_20230526/de.binary_kitchen.doorlock_app_8.apk
@@ -3764,7 +3725,6 @@
 /home/shared-resources/apks/fdroid_20230526/pl.net.szafraniec.NFCKey_24.apk
 /home/shared-resources/apks/fdroid_20230526/net.pejici.easydice_8.apk
 /home/shared-resources/apks/fdroid_20230526/de.markusfisch.android.libra_21.apk
-/home/shared-resources/apks/fdroid_20230526/com.m3sv.plainupnp_75.apk
 /home/shared-resources/apks/fdroid_20230526/org.asafonov.monly_44.apk
 /home/shared-resources/apks/fdroid_20230526/org.jsl.shmp_1.apk
 /home/shared-resources/apks/fdroid_20230526/de.qspool.clementineremote_759.apk
@@ -3797,7 +3757,6 @@
 /home/shared-resources/apks/fdroid_20230526/com.nishantboro.splititeasy_1.apk
 /home/shared-resources/apks/fdroid_20230526/com.tttdevs.stncbookmarks_2.apk
 /home/shared-resources/apks/fdroid_20230526/org.legtux.m_316k.taptheblacktiles_2.apk
-/home/shared-resources/apks/fdroid_20230526/com.gueei.applocker_3.apk
 /home/shared-resources/apks/fdroid_20230526/net.jakevossen.apollotrivia_13.apk
 /home/shared-resources/apks/fdroid_20230526/com.veniosg.dir_1560.apk
 /home/shared-resources/apks/fdroid_20230526/com.sovworks.edslite_237.apk
@@ -3853,7 +3812,6 @@
 /home/shared-resources/apks/fdroid_20230526/au.id.micolous.farebot_3920.apk
 /home/shared-resources/apks/fdroid_20230526/com.ruesga.rview_69.apk
 /home/shared-resources/apks/fdroid_20230526/com.github.quarck.calnotify_4000006.apk
-/home/shared-resources/apks/fdroid_20230526/io.github.installalogs_10.apk
 /home/shared-resources/apks/fdroid_20230526/sterrenburg.github.flutterhole_641.apk
 /home/shared-resources/apks/fdroid_20230526/info.aario.killcamera_1.apk
 /home/shared-resources/apks/fdroid_20230526/org.supertuxkart.stk_312.apk
@@ -3954,7 +3912,6 @@
 /home/shared-resources/apks/fdroid_20230526/com.szchoiceway.aios.bridge_8.apk
 /home/shared-resources/apks/fdroid_20230526/com.nolanlawson.chordreader_8.apk
 /home/shared-resources/apks/fdroid_20230526/eu.veldsoft.vitosha.blackjack_2.apk
-/home/shared-resources/apks/fdroid_20230526/theakki.synctool_100.apk
 /home/shared-resources/apks/fdroid_20230526/eu.berdosi.app.heartbeat_5.apk
 /home/shared-resources/apks/fdroid_20230526/com.github.olga_yakovleva.rhvoice.android_108000.apk
 /home/shared-resources/apks/fdroid_20230526/org.jfedor.nxtremotecontrol_5.apk
@@ -4015,7 +3972,6 @@
 /home/shared-resources/apks/fdroid_20230526/com.netvor.settings.database.provider_1.apk
 /home/shared-resources/apks/fdroid_20230526/com.bwx.bequick_201107260.apk
 /home/shared-resources/apks/fdroid_20230526/genius.mohammad.floating.stickies_28.apk
-/home/shared-resources/apks/fdroid_20230526/net.nightwhistler.pageturner_60.apk
 /home/shared-resources/apks/fdroid_20230526/org.miamplayer.autoairplanemode_1.apk
 /home/shared-resources/apks/fdroid_20230526/de.schlikk.calls_100000.apk
 /home/shared-resources/apks/fdroid_20230526/de.pinyto.exalteddicer_4.apk

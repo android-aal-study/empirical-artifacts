@@ -32,4 +32,6 @@ Each JSON file contains a list `compassMethods`, which is an array of the follow
 
 We have three APK datasets. They correspond to three typical app categories, open-source apps, commercial apps, and malware. You may check them in the three .txt files.
 
+Due to space limit and network issue, we do not upload all the APK files as well as the output JSON files.
+
 
