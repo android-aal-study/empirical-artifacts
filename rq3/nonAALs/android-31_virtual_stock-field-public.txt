@@ -1,0 +1,7 @@
+FieldSub(class_name='android.hardware.display.DisplayManager$DeviceConfig', name='KEY_REFRESH_RATE_IN_HBM_HDR')
+FieldSub(class_name='android.hardware.display.DisplayManager$DeviceConfig', name='KEY_REFRESH_RATE_IN_HBM_SUNLIGHT')
+FieldSub(class_name='android.telecom.Connection', name='EXTRA_ADD_TO_CONFERENCE_ID')
+FieldSub(class_name='com.android.internal.R$bool', name='config_disableTaskSnapshots')
+FieldSub(class_name='com.android.internal.R$bool', name='config_volumeAdjustmentForRemoteGroupSessions')
+FieldSub(class_name='com.android.internal.R$integer', name='config_defaultRefreshRateInHbmHdr')
+FieldSub(class_name='com.android.internal.R$integer', name='config_defaultRefreshRateInHbmSunlight')

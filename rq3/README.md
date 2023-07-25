@@ -27,13 +27,19 @@ We have 9 devices, correspond to 9 folders:
 
 The files in each folder are:
 
-+ `all_classes.txt`:
-+ `all_fields.txt`:
-+ `all_methods.txt`:
++ `all_classes.txt`: All classes merged from the four AALs, under the device's `Build.VERSION.SDK_INT`
++ `all_fields.txt`: All fields reflected by invoking the `Class.getDeclaredFields()` methods on the classes in `all_classes.txt`
++ `all_methods.txt`: All methods reflected by invoking the `Class.getDeclaredMethods()` and `Class.getDeclaredConstructors()` methods on the classes in `all_classes.txt`
++ `CSV_missing_classes.txt`: the classes in the CSV list but cannot be reflected by `Class.forName(String)`
++ `CSV_missing_fields.txt`: the fields in the CSV list but cannot be reflected by `class.getDeclaredField(String)`
++ `CSV_missing_methods.txt`: the methods in the CSV list but cannot be reflected by `class.getDeclaredMethod(String,Class...)` or `class.getDeclaredConstructor(String,Class...)`
++ and so on ...
+
+The non-AAL APIs should be computed by the `analyze.py` Python script, based on the `all_fields.txt` and `all_methods.txt` files, as shown below.
 
 ## Obtaining Empirical Finding Data
 
-They were downloaded after we reflect all APIs on the devices, from the app's local data folder on the devices. The basic information can be obtained by directly running the `drawTable7()` function in `analyze.py`.
+The API files for each devices were downloaded after we reflect all APIs on the devices, from the app's local data folder on the devices. The basic information can be obtained by directly running the `drawTable7()` function in `analyze.py`.
 
 Example run:
 
@@ -52,3 +58,20 @@ Samsung Galaxy A53 & One UI 5.1 & Android 13 (33) & 659 & 679 & 338 & 255 & 7,61
 virtual & stock Android & Android 13 (33) & 659 & 679 & 338 & 235 & 406/572 & 961 & 392 & 19 & 784 & 537/669 \\
 ```
 
+## Other Findings
+
+Run the `analyzeNonCsvOverlap` function to obtain empirical data about non-overlap non-existing APIs in CSV on customized devices.
+
+```bash
+$ python .\analyze.py
+30 85 211
+31 5 41
+33 7 41
+```
+
+Run the `analyzeNonAalPublic` function to get a list of public non-AAL APIs. We have already run and save these files, stored in the `nonAALs/` folder. Each devices correspond to four files:
+
++ `*-field-public.txt`: non-AAL public fields on the device
++ `*-field.txt`: all non-AAL fields on the device
++ `*-method-public.txt`: non-AAL public methods (including constructors) on the device
++ `*-method.txt`: all non-AAL methods (including constructors) on the device
