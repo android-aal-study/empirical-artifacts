@@ -269,6 +269,27 @@ def analyzeNonAalPublic():
 
 
 
+# used for RQ4
+def dumpNonAal():
+    total = set()
+    for item in data_list:
+        if not item or item[0].endswith('stock'):
+            continue
+        path = Path('rq3/')/item[0]
+        pmf = compute_all_nonaal_access(path, 'fields')
+        for api, _ in pmf:
+            sig = api.class_name + '->' + api.name
+            total.add(sig)
+        pmm = compute_all_nonaal_access(path, 'methods')
+        for api, _ in pmm:
+            sig = api.class_name + '->' + api.name + '(' + ','.join(api.parameter_types) + ')'
+            total.add(sig)
+    with open('../rq4/all-non-aal.txt', 'w') as w:
+        for api in sorted(total):
+            w.write(api)
+            w.write('\n')
+
+
 
 
 if __name__ == '__main__':
