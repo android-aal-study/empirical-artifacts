@@ -56,9 +56,16 @@ Since we are more interested in exclusive APIs and shared APIs, thus we only dis
 | Google Play |       12719      |      100679     |          90247          |         19582         |               15738               |      612253      |          569123          |          44608         |                37021               |
 |   Malware   |        629       |       1567      |           1523          |          190          |                170                |       10562      |           9367           |          1092          |                 891                |
 
-The columns with "(no obf.)" are numbers of used APIs that without the obfuscated ones. We detect obfuscated APIs by simple heuristics, i.e., the occurrences of single character or two characters identifiers (source code in the `call_api_info.py` script).
+The columns with "(no obf.)" are numbers of used APIs that without the obfuscated ones. We detect obfuscated APIs by simple heuristics, i.e., the occurrence of single character or two-characters identifiers (source code in the `call_api_info.py` script). More reliable obfuscation detection is out of our study scope.
 
 ### Reflect API call
 
+|   App Set   | using APK number | CSV-only APIs | shared APIs | non-AAL APIs | total used APIs |
+|:-----------:|:----------------:|:-------------:|:-----------:|:------------:|:---------------:|
+|   F-Droid   |       1601       |   474/420630  |   12/60658  |       0      |       487       |
+| Google Play |       11609      |  1518/420630  |   34/60658  |       1      |       1556      |
+|   Malware   |        360       |   220/420630  |   10/60658  |       0      |       230       |
 
+We only list CSV-only APIs and shared APIs and non-AAL APIs here. There can be reflected APIs appear in more than one AAL, thus the API numbers on each row may not necessarily sum up to total.
 
+Also note that, since the detection results of veridex do not distinguish fields and methods, thus we sum their occurrence up and only present the numbers of APIs for each column.
