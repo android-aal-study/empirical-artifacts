@@ -50,11 +50,11 @@ Since we are more interested in exclusive APIs and shared APIs, thus we only dis
 
 ### Extra API call
 
-|   App Set   | using APK number | all used fields | Support/AndroidX fields | used fields (no obf.) | Support/AndroidX fields (no obf.) | all used methods | Support/AndroidX methods | used methods (no obf.) | Support/AndroidX methods (no obf.) |
-|:-----------:|:----------------:|:---------------:|:-----------------------:|:---------------------:|:---------------------------------:|:----------------:|:------------------------:|:----------------------:|:----------------------------------:|
-|   F-Droid   |       3332       |      23156      |          22586          |          4449         |                4209               |      105077      |          102881          |          10006         |                9215                |
-| Google Play |       12719      |      100679     |          90247          |         19582         |               15738               |      612253      |          569123          |          44608         |                37021               |
-|   Malware   |        629       |       1567      |           1523          |          190          |                170                |       10562      |           9367           |          1092          |                 891                |
+|   App Set   | using APK number | used fields | used fields (no obf.) | Support/AndroidX fields | Support/AndroidX fields (no obf.) | used methods | used methods (no obf.) | Support/AndroidX methods | Support/AndroidX methods (no obf.) |
+| :---------: | :--------------: | :---------: | :-------------------: | :---------------------: | :-------------------------------: | :----------: | :--------------------: | :----------------------: | :--------------------------------: |
+|   F-Droid   |       3332       |    23156    |         4449          |          22586          |               4209                |    105077    |         10006          |          102881          |                9215                |
+| Google Play |      12719       |   100679    |         19582         |          90247          |               15738               |    612253    |         44608          |          569123          |               37021                |
+|   Malware   |       629        |    1567     |          190          |          1523           |                170                |    10562     |          1092          |           9367           |                891                 |
 
 The columns with "(no obf.)" are numbers of used APIs that without the obfuscated ones. We detect obfuscated APIs by simple heuristics, i.e., the occurrence of single character or two-characters identifiers (source code in the `call_api_info.py` script). More reliable obfuscation detection is out of our study scope.
 
@@ -69,3 +69,21 @@ The columns with "(no obf.)" are numbers of used APIs that without the obfuscate
 We only list CSV-only APIs and shared APIs and non-AAL APIs here. There can be reflected APIs appear in more than one AAL, thus the API numbers on each row may not necessarily sum up to total.
 
 Also note that, since the detection results of veridex do not distinguish fields and methods, thus we sum their occurrence up and only present the numbers of APIs for each column.
+
+
+
+## About the Script
+
+Due to the large size of raw data cannot be uploaded, we only use the intermediate results to draw the tables in this replication package. To draw the table of API calls in apps, simply run the `general_stat_for_body()` function in `call_api_info.py` script. Sample run:
+
+```bash
+$ python ./call_api_info.py 
+------------------------ Table for body ---------------------------
+F-Droid & 4,046 & 24,973 & 4,046 & 128,233 & 3,332 & 487 & 1,601 \\
+Google Play & 12,968 & 28,200 & 12,968 & 712,932 & 12,719 & 1,556 & 11,609 \\
+Malware & 745 & 11,854 & 745 & 12,129 & 629 & 230 & 360 \\
+-----------------------------------------------------------------
+```
+
+
+
