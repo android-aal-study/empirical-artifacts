@@ -74,7 +74,7 @@ Also note that, since the detection results of veridex do not distinguish fields
 
 ## About the Script
 
-Due to the large size of raw data cannot be uploaded, we only use the intermediate results to draw the tables in this replication package. To draw the table of API calls in apps, simply run the `general_stat_for_body()` function in `call_api_info.py` script. Sample run:
+Due to the large size of raw data cannot be uploaded, we only use the intermediate results to draw the tables in this replication package. To get the raw data, you should uncompress the [app_results.7z](app_results.7z) archive file (high compress ratio!). To draw the table of API calls in apps, simply run the `general_stat_for_body()` function in `call_api_info.py` script. Sample run:
 
 ```bash
 $ python ./call_api_info.py 
