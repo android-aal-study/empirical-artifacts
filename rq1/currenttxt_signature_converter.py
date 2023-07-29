@@ -65,8 +65,6 @@ class SC:
                     text = text[:index]
                 return text
 
-            # 这里的代码存在漏洞, 存在多个类型参数时，会出现问题
-
             m = re.search(SC.Util.tag_pattern, a)
             if m:
                 type_param_list = m.group(0)[1:-1].split(",")
@@ -79,7 +77,6 @@ class SC:
 
                     assert (len(tmp) == 3 or (tmp[3] == '&' or tmp[3] == 'super')) and tmp[1] == 'extends' and tmp[
                         0].isupper()
-                    # 这里只添加了一个类型参数，但是可能存在多个类型参数的情况
                     mapping[tmp[0]] = remove_chars(tmp[2])
                     mapping[tmp[0] + "[]"] = remove_chars(tmp[2]) + "[]"  # add array type
 
@@ -206,7 +203,6 @@ class SC:
             line = SC.Util.handle_generic_type(line)
 
             line = SC.Util.recursive_remove_annotations(line)
-            # line = SC.Util.remove_annotations_from_string(line)
 
             m = re.search(SC.Util.ctor_pattern, line)
             if m:
@@ -219,7 +215,6 @@ class SC:
         def get_field_info(line):
             line = SC.Util.handle_generic_type(line)
             line = SC.Util.recursive_remove_annotations(line)
-            # line = SC.Util.remove_annotations_from_string(line)
             for idx in range(len(SC.Util.field_pattern_lst)):
                 m = re.search(SC.Util.field_pattern_lst[idx], line)
                 if m:
@@ -445,11 +440,6 @@ def validate_signatures():
                         if '_' in class_name:
                             class_name = class_name.replace('_', '')
                         assert all(s.isidentifier() for s in class_name.split('.')), 'invalid class name'
-                # except ValueError as ve:
-                #     if ve.args[0].startswith('too many values to unpack'):
-                #         continue
-                #     else:
-                #         raise
                 except:
                     print(f'(api-level {i}) error in: {original}')
                     raise
