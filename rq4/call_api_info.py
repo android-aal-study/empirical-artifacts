@@ -205,8 +205,7 @@ def stat_tmp_list_appendix(tmp_stat_list, filter_api_with_obfuscator=False):
     for api_txt in txt_list:
         assert api_txt.endswith('.txt'), 'Invalid file: ' + api_txt
 
-        with open(api_txt, 'r') as FILE:
-
+        with open(api_txt, 'r', encoding='utf8') as FILE:
             for line in FILE:
 
                 line = line.strip()
@@ -366,41 +365,41 @@ def stat_tmp_list_appendix(tmp_stat_list, filter_api_with_obfuscator=False):
                 with open(
                         ospath.join(f"{prefix}-{data_set_name}",
                                      f"{prefix}-{data_set_name}-non-AAL-field-without-obfuscator.txt"),
-                        'w') as non_AAL_field_list:
+                        'w', encoding='utf8') as non_AAL_field_list:
                     non_AAL_field_list.writelines(sort_api_set(miss_field))
 
                 with open(
                         ospath.join(f"{prefix}-{data_set_name}",
                                      f"{prefix}-{data_set_name}-non-AAL-method-without-obfuscator.txt"),
-                        'w') as non_AAL_method_list:
+                        'w', encoding='utf8') as non_AAL_method_list:
                     non_AAL_method_list.writelines(
                         sort_api_set(miss_method))
 
                 with open(
                         ospath.join(f"{prefix}-{data_set_name}",
                                      f"{prefix}-{data_set_name}-total-field-without-obfuscator.txt"),
-                        'w') as total_field_list:
+                        'w', encoding='utf8') as total_field_list:
                     total_field_list.writelines(
                         sort_api_set(call_field))
 
                 with open(
                         ospath.join(f"{prefix}-{data_set_name}",
                                      f"{prefix}-{data_set_name}-total-method-without-obfuscator.txt"),
-                        'w') as total_method_list:
+                        'w', encoding='utf8') as total_method_list:
                     total_method_list.writelines(
                         sort_api_set(call_method))
 
                 with open(
                         ospath.join(f"{prefix}-{data_set_name}",
                                      f"{prefix}-{data_set_name}-androidx-or-support-field-without-obfuscator.txt"),
-                        'w') as androidx_or_support_field_list:
+                        'w', encoding='utf8') as androidx_or_support_field_list:
                     androidx_or_support_field_list.writelines(
                         sort_api_set(androidx_or_support_field_num))
 
                 with open(
                         ospath.join(f"{prefix}-{data_set_name}",
                                      f"{prefix}-{data_set_name}-androidx-or-support-method-without-obfuscator.txt"),
-                        'w') as androidx_or_support_method_list:
+                        'w', encoding='utf8') as androidx_or_support_method_list:
                     androidx_or_support_method_list.writelines(
                         sort_api_set(androidx_or_support_method_num))
 
@@ -409,40 +408,40 @@ def stat_tmp_list_appendix(tmp_stat_list, filter_api_with_obfuscator=False):
                 with open(
                         ospath.join(f"{prefix}-{data_set_name}",
                                      f"{prefix}-{data_set_name}-non-AAL-field.txt"),
-                        'w') as non_AAL_field_list:
+                        'w', encoding='utf8') as non_AAL_field_list:
                     non_AAL_field_list.writelines(sort_api_set(miss_field))
 
                 with open(
                         ospath.join(f"{prefix}-{data_set_name}",
                                      f"{prefix}-{data_set_name}-non-AAL-method.txt"),
-                        'w') as non_AAL_field_list:
+                        'w', encoding='utf8') as non_AAL_field_list:
                     non_AAL_field_list.writelines(sort_api_set(miss_method))
 
                 with open(
                         ospath.join(f"{prefix}-{data_set_name}",
                                      f"{prefix}-{data_set_name}-total-field.txt"),
-                        'w') as total_field_list:
+                        'w', encoding='utf8') as total_field_list:
                     total_field_list.writelines(
                         sort_api_set(call_field))
 
                 with open(
                         ospath.join(f"{prefix}-{data_set_name}",
                                      f"{prefix}-{data_set_name}-total-method.txt"),
-                        'w') as total_method_list:
+                        'w', encoding='utf8') as total_method_list:
                     total_method_list.writelines(
                         sort_api_set(call_method))
 
                 with open(
                         ospath.join(f"{prefix}-{data_set_name}",
                                      f"{prefix}-{data_set_name}-androidx-or-support-field.txt"),
-                        'w') as androidx_or_support_field_list:
+                        'w', encoding='utf8') as androidx_or_support_field_list:
                     androidx_or_support_field_list.writelines(
                         sort_api_set(androidx_or_support_field_num))
 
                 with open(
                         ospath.join(f"{prefix}-{data_set_name}",
                                      f"{prefix}-{data_set_name}-androidx-or-support-method.txt"),
-                        'w') as androidx_or_support_method_list:
+                        'w', encoding='utf8') as androidx_or_support_method_list:
                     androidx_or_support_method_list.writelines(
                         sort_api_set(androidx_or_support_method_num))
 
