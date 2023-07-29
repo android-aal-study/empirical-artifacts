@@ -50,11 +50,11 @@ Since we are more interested in exclusive APIs and shared APIs, thus we only dis
 
 ### Extra API call
 
-|   App Set   | using APK number | used fields | used fields (no obf.) | Support/AndroidX fields | Support/AndroidX fields (no obf.) | used methods | used methods (no obf.) | Support/AndroidX methods | Support/AndroidX methods (no obf.) |
-| :---------: | :--------------: | :---------: | :-------------------: | :---------------------: | :-------------------------------: | :----------: | :--------------------: | :----------------------: | :--------------------------------: |
-|   F-Droid   |       3332       |    23156    |         4449          |          22586          |               4209                |    105077    |         10006          |          102881          |                9215                |
-| Google Play |      12719       |   100679    |         19582         |          90247          |               15738               |    612253    |         44608          |          569123          |               37021                |
-|   Malware   |       629        |    1567     |          190          |          1523           |                170                |    10562     |          1092          |           9367           |                891                 |
+|   App Set   | using APK number | used fields | Support/AndroidX fields | used methods | Support/AndroidX methods | used fields (no obf.) | Support/AndroidX fields (no obf.) | used methods (no obf.) | Support/AndroidX methods (no obf.) |
+| :---------: | :--------------: | :---------: | :---------------------: | :----------: | :----------------------: | :-------------------: | :-------------------------------: | :--------------------: | :--------------------------------: |
+|   F-Droid   |       3332       |    23156    |          22586          |    105077    |          102881          |         4449          |               4209                |         10006          |                9215                |
+| Google Play |      12719       |   100679    |          90247          |    612253    |          569123          |         19582         |               15738               |         44608          |               37021                |
+|   Malware   |       629        |    1567     |          1523           |    10562     |           9367           |          190          |                170                |          1092          |                891                 |
 
 The columns with "(no obf.)" are numbers of used APIs that without the obfuscated ones. We detect obfuscated APIs by simple heuristics, i.e., the occurrence of single character or two-characters identifiers (source code in the `call_api_info.py` script). More reliable obfuscation detection is out of our study scope.
 
@@ -72,7 +72,7 @@ Also note that, since the detection results of veridex do not distinguish fields
 
 
 
-## About the Script
+## Printing the Table
 
 Due to the large size of raw data cannot be uploaded, we only use the intermediate results to draw the tables in this replication package. To get the raw data, you should uncompress the [app_results.7z](app_results.7z) archive file (high compress ratio!). To draw the table of API calls in apps, simply run the `general_stat_for_body()` function in `call_api_info.py` script. Sample run:
 
@@ -130,3 +130,44 @@ malware & 360 & 0/61 & 0/195 & - & 220/420,630 & 10/60,658 & 0 & 230 & 0\\
 ```
 
 The tables' data are exactly the same as the previous part. We make it more pretty for readability.
+
+## Other Findings
+
+They can be printed by the `indepth_findings.py` script.
+
+### Finding 10
+
+Run the function `find_extra_cutomized_apis()` to obtain the list of used non-aal APIs from apps.
+
+```bash
+$ python ./indepth_findings.py
+('fdroid', 'field', '') total 23156 support/androidx 22586 non-aal 2
+('fdroid', 'method', '') total 105077 support/androidx 102881 non-aal 1
+('gplay', 'field', '') total 100679 support/androidx 90247 non-aal 8
+('gplay', 'method', '') total 612253 support/androidx 569123 non-aal 70
+('malware', 'field', '') total 1567 support/androidx 1523 non-aal 0
+('malware', 'method', '') total 10562 support/androidx 9367 non-aal 0
+```
+
+The results will be printed into the [covered_non_aal](covered_non_aal) folder.
+
+To see which apps use the non-AAL APIs, we run the `backtrack_nonaal_apis()` function. However, since we cannot upload the raw data, we can only present the output, as shown in the source in `indepth_findings.py`.
+
+### Finding 11
+
+Run the function `backtrack_nonsdk_interfaces()` to see which non-SDK interfaces are invoked in apps. Outputs are:
+
+```bash
+output of fdroid:
+---
+fdroid {'total': 487, 'public': 12, 'unsupport': 295, 'conditional': 164, 'block': 16}
+======================================================================================================
+output of gplay:
+---
+gplay {'total': 1556, 'public': 35, 'unsupport': 924, 'conditional': 535, 'block': 62}
+======================================================================================================
+output of malware:
+---
+malware {'total': 230, 'public': 11, 'unsupport': 138, 'conditional': 70, 'block': 11}
+```
+

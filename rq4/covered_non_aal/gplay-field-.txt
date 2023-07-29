@@ -1,0 +1,8 @@
+android.content.res.Configuration->semDesktopModeEnabled
+android.content.res.Configuration->semDisplayDeviceType
+android.content.res.Configuration->semMobileKeyboardCovered
+android.os.Build$VERSION->SEM_FIRST_SDK_INT
+android.os.Build$VERSION->SEM_INT
+android.os.Build$VERSION->SEM_PLATFORM_INT
+android.view.WindowManager$LayoutParams->coverMode
+android.view.WindowManager$LayoutParams->extraFlags
