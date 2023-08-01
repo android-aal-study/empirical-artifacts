@@ -171,3 +171,25 @@ output of malware:
 malware {'total': 230, 'public': 11, 'unsupport': 138, 'conditional': 70, 'block': 11}
 ```
 
+
+## Usage of non-removed APIs
+
+This result concerns the four APIs:
+
++ `android.webkit.WebChromeClient->onReachedMaxAppCacheSize(long,long,android.webkit.WebStorage$QuotaUpdater)`
++ `android.webkit.WebSettings->setAppCacheEnabled(boolean)`
++ `android.webkit.WebSettings->setAppCacheMaxSize(long)`
++ `android.webkit.WebSettings->setAppCachePath(java.lang.String)`
+
+They are dumped from the `r_txt_32_33.json` file in `rq1/removed_apis/`.
+
+This should be used after dumping the data tables above. Then, to show the usage of APIs (removed from TXT list at 33, but still accessible from Android 13, APIs having `@removed` annotations). It should call the function `verify_annot_removed_usages()` in the `indepth_findings.py` script. Example running:
+
+```bash
+$ python ./indepth_findings.py
+fdroid 133
+gplay 5055
+malware 154
+```
+
+Which means, 133 F-Droid apps invoke one of the aforementioned four APIs, as well as 5055 Google Play commercial apps, and 154 malware.

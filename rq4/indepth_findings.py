@@ -283,9 +283,29 @@ malware {'total': 230, 'public': 11, 'unsupport': 138, 'conditional': 70, 'block
 
 
 
+def verify_annot_removed_usages():
+    annot_removed_apis = {
+        "android.webkit.WebChromeClient->onReachedMaxAppCacheSize(long,long,android.webkit.WebStorage$QuotaUpdater)",
+        "android.webkit.WebSettings->setAppCacheEnabled(boolean)",
+        "android.webkit.WebSettings->setAppCacheMaxSize(long)",
+        "android.webkit.WebSettings->setAppCachePath(java.lang.String)",
+    }
+
+    for r in result_sets:
+        used_app_count = 0
+        for fn in os.listdir(f'{r}_call_APIs/'):
+            fn = f'{r}_call_APIs/{fn}'
+            used = set(_to_lines(fn))
+            if used.intersection(annot_removed_apis):
+                used_app_count += 1
+        print(r, used_app_count)
+
+
 
 if __name__ == '__main__':
     find_extra_cutomized_apis()
 
     # backtrack_nonaal_apis()
     # backtrack_nonsdk_interfaces()
+
+    # verify_annot_removed_usages()
